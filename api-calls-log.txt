@@ -1,0 +1,3558 @@
+========= API CALLS LOG =========
+
+
+====================================
+TIME   : 11/5/2026, 6:17:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/index.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/index.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/big.min.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/shell.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/ace-editor/ace.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/ace-editor/ext-language_tools.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap-ui-core.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/lib/cvom/viz_base.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/bootstrap.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/index.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:51 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/dbtype/get.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/fe/navigation/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vk/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/AppCacheBuster.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:54 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:54 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/share/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:54 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/extension/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:54 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/components/resources/i18n/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/resources/resources_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/i18n/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/sap-ui-cachebuster-info.json?sap-ui-language=en-US
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/api/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/ext/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/dialog/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/cldr/en.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/d3.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/require.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/codeeditor/library.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/themes/sap_horizon/library.css?version=1.0.0
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-widget.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vk/themes/sap_horizon/library.css?version=1.136.2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:58 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/sap_horizon/library.css?version=1.136.8
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/themes/sap_horizon/library.css?version=1.136.5
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/themes/sap_horizon/library.css?version=1.136.1
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/themes/sap_horizon/library.css?version=1.136.0
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/codeeditor/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/themes/sap_horizon/library.css?version=1.136.4
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:17:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-mouse.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-draggable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-droppable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/player/core/FilterUtil.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/dbtype/get.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/gate/api/csrf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/data/user.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/OLNG/search
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/OFPR/search
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/login.html?url=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fwebx%2Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/login.html?url=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fwebx%2Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/login.html?url=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fwebx%2Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/login.html?url=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fwebx%2Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/login.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:02 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/auth/login?redirect=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fauth%2Fsp%2Flogin%3Furl%3Dhttps%253A%252F%252Fghdev.seedandbeyond.com%253A223%252Fwebx%252Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/realms/sapb1/protocol/openid-connect/auth?scope=openid+profile+email&response_type=code&client_id=b1-B1WebClients-1832-WebClient-sbo&redirect_uri=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fauth%2F&state=b1-oidc%3Ahttps%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fauth%2Fsp%2Flogin%3Furl%3Dhttps%253A%252F%252Fghdev.seedandbeyond.com%253A223%252Fwebx%252Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/vendor/patternfly-v5/patternfly.min.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/vendor/patternfly-v3/css/patternfly.min.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/vendor/patternfly-v5/patternfly-addons.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/lib/pficon/pficon.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/login.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/tile.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/login-fiori.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/js/script.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/img/b1cover.jpg
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:03 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/img/b1logo.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:05 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/fonts/72-Regular.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:05 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/fonts/72-Bold.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:06 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/img/b1.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:20020/auth/realms/sapb1/login-actions/authenticate?session_code=tusYa_f0NrrYooNfRgOsAr_LNpwmbOEnl8wiQ8y_fO8&execution=4860ad9b-58ae-40f5-b6aa-a1a380565192&client_id=b1-B1WebClients-1832-WebClient-sbo&tab_id=zQXj60Q2q7Y&client_data=eyJydSI6Imh0dHBzOi8vZ2hkZXYuc2VlZGFuZGJleW9uZC5jb206MjIzL2F1dGgvIiwicnQiOiJjb2RlIiwic3QiOiJiMS1vaWRjOmh0dHBzOi8vZ2hkZXYuc2VlZGFuZGJleW9uZC5jb206MjIzL2F1dGgvc3AvbG9naW4_dXJsPWh0dHBzJTNBJTJGJTJGZ2hkZXYuc2VlZGFuZGJleW9uZC5jb20lM0EyMjMlMkZ3ZWJ4JTJGaW5kZXguaHRtbCJ9
+BODY   : username=balag
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/vendor/patternfly-v5/patternfly.min.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/vendor/patternfly-v3/css/patternfly.min.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/vendor/patternfly-v5/patternfly-addons.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/common/keycloak/lib/pficon/pficon.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/login.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/tile.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/login-fiori.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/js/script.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/img/b1cover.jpg
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:07 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/img/b1logo.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:08 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/fonts/72-Regular.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:08 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/fonts/72-Bold.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:08 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:20020/auth/resources/5w0g8/login/sapb1/css/fonts/SAP-icons.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:09 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:20020/auth/realms/sapb1/login-actions/authenticate?session_code=w-lBBRMGjPK7dCBmEK_t1QD6CcjNGvc0w92lbb3Na7U&execution=50a4d4ff-0251-4074-898f-b74ab7efae57&client_id=b1-B1WebClients-1832-WebClient-sbo&tab_id=zQXj60Q2q7Y&client_data=eyJydSI6Imh0dHBzOi8vZ2hkZXYuc2VlZGFuZGJleW9uZC5jb206MjIzL2F1dGgvIiwicnQiOiJjb2RlIiwic3QiOiJiMS1vaWRjOmh0dHBzOi8vZ2hkZXYuc2VlZGFuZGJleW9uZC5jb206MjIzL2F1dGgvc3AvbG9naW4_dXJsPWh0dHBzJTNBJTJGJTJGZ2hkZXYuc2VlZGFuZGJleW9uZC5jb20lM0EyMjMlMkZ3ZWJ4JTJGaW5kZXguaHRtbCJ9
+BODY   : password=Welcome%4012345
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:09 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/?state=b1-oidc%3Ahttps%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fauth%2Fsp%2Flogin?url%3Dhttps%253A%252F%252Fghdev.seedandbeyond.com%253A223%252Fwebx%252Findex.html&session_state=e9865886-e6b3-9476-3503-51ffca17e0e9&iss=https%3A%2F%2Fghdev.seedandbeyond.com%3A20020%2Fauth%2Frealms%2Fsapb1&code=8f3310c0-4ff4-7b7b-9fe5-9b825f8ca7e5.e9865886-e6b3-9476-3503-51ffca17e0e9.7f60d639-031e-43fe-b085-a5c6161a2827
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:09 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/sp/login?url=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fwebx%2Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/__choose_company.html?ori=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fauth%2Fsp%2Flogin%3Furl%3Dhttps%253A%252F%252Fghdev.seedandbeyond.com%253A223%252Fwebx%252Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/login-fiori.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/images/cover.JPG
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/images/logo@light.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/js/utils.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/js/companySelection.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/fonts/72-Regular.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:10 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/fonts/72-Bold.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:11 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/js/selectWithFilter.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:11 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv/companies
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:12 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/fonts/SAP-icons.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:13 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv/choose_company
+BODY   : {"dbName":"DEV"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/__loading.html?ori=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fauth%2Fsp%2Flogin%3Furl%3Dhttps%253A%252F%252Fghdev.seedandbeyond.com%253A223%252Fwebx%252Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/login.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/page.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/pop-win.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/login-fiori.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/images/cover.JPG
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/images/logo_light.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/js/utils.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:14 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/js/loading.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:15 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/images/body_bg.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:15 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/b1-srv-static/css/fonts/72-Regular.ttf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:15 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/auth/sp/login?url=https%3A%2F%2Fghdev.seedandbeyond.com%3A223%2Fwebx%2Findex.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/index.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/index.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/big.min.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/shell.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/ace-editor/ace.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/ace-editor/ext-language_tools.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap-ui-core.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/lib/cvom/viz_base.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/bootstrap.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/index.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:22 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/dbtype/get.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/fe/navigation/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vk/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/AppCacheBuster.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/share/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/extension/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/api/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/components/resources/i18n/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/resources/resources_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/i18n/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/sap-ui-cachebuster-info.json?sap-ui-language=en-US
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/ext/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/dialog/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/cldr/en.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/d3.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/require.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/codeeditor/library.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/themes/sap_horizon/library.css?version=1.0.0
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-widget.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vk/themes/sap_horizon/library.css?version=1.136.2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/sap_horizon/library.css?version=1.136.8
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/themes/sap_horizon/library.css?version=1.136.5
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/themes/sap_horizon/library.css?version=1.136.1
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/themes/sap_horizon/library.css?version=1.136.0
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/codeeditor/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/themes/sap_horizon/library.css?version=1.136.4
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-mouse.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-draggable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-droppable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/player/core/FilterUtil.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/dbtype/get.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/gate/api/csrf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/data/user.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/OLNG/search
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/OFPR/search
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:23 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+BODY   : {}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:24 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+BODY   : {}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:24 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/sandbox/Sandbox_bundle.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:24 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/sac/df/thirdparty/lodash.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:24 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/FixUI5.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:24 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/sbo-udv-expression/dist/sbo-udv-expression.bundle.amd.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:24 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/renderer/resources/resources_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-selectable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/require.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/sandbox/Controller_bundle.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/fonts/BusinessSuiteInAppSymbols.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/base/fonts/SAP-icons-TNT.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-extensions.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/addon/system/ta/manifest.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap-ui-version.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/tile/tiles.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1ah/es
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=1206
+BODY   : command=GetBOList&rep.path=All
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/SAP-icons.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Regular.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/img/logo@sap_horizon.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/bootstrap/SchedulingAgent/StepConfiguration.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/bootstrap/SchedulingAgent/LoadingConfiguration.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/fonts/BusinessSuiteInAppSymbols.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/base/fonts/horizon/SAP-icons-TNT.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/addon/system/ta/global.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:26 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/136479/sync/manifest.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:26 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/datajs.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:26 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/i18n/B1MessagesHandler_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:27 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/dfa/help/utils/adapters/fiori/Component-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:27 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/GetBadgeNumber()
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:27 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications/$count
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:27 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications?$expand=Actions,NavigationTargetParams&$orderby=CreatedAt%20desc&$filter=IsGroupHeader%20eq%20false&$skip=0&$top=10
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:27 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/tile/catalog.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:28 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/content/report/i18n/profitloss_i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:29 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/content/report/i18n/salesanalysis_i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:29 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications?$expand=Actions,NavigationTargetParams&$filter=IsGroupHeader%20eq%20true
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:29 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=7788
+BODY   : command=GetQueryHistory&history.scope=All%2FMaster%20Data%2F%40ES_RESOURCEMD%3BAll%2FMaster%20Data%2F%40ES_ITEM%3BAll%2FMaster%20Data%2F%40ES_BP%3BAll%2FAR%2F%40ES_SALESORDER%3BAll%2FAR%2F%40ES_SALESDELIVERY%3BAll%2FAR%2F%40ES_SALESQUOTATION%3BAll%2FAR%2F%40ES_SALESARINVOICE%3BAll%2FAR%2F%40ES_AR_CREDIT_MEMO%3BAll%2FAR%2F%40ES_SALESRETURNS%3BAll%2FAR%2F%40ES_SALESAR_R_I%3BAll%2FInventory%2F%40ES_INVENTORYGOODSRECEIPT%3BAll%2FInventory%2F%40ES_INVENTORYGOODSISSUE%3BAll%2FService%2F%40ES_KNOWLEDGE_BASE%3BAll%2FService%2F%40ES_ACTIVITY%3BAll%2FService%2F%40ES_SERVICECALL%3BAll%2FProduction%2F%40ES_PRODUCTIONORDER%3BAll%2FProduction%2F%40ES_BOM%3BAll%2FAP%2F%40ES_AP_INVOICE%3BAll%2FAP%2F%40ES_PURCHASE_ORDER%3BAll%2FAP%2F%40ES_GOODSRETURN%3BAll%2FAP%2F%40ES_GOODSRECEIPTPO%3BAll%2FAP%2F%40ES_PURCHASEQUOTATION%3BAll%2FAP%2F%40ES_APRESERVEINVOICE%3BAll%2FAP%2F%40ES_AP_CREDIT_MEMO%3BAll%2FSales%20Opportunity%2F%40ES_OPPORTUNITY%3BAll%2FBanking%2F%40ES_OP%3BAll%2FBanking%2F%40ES_IP%3BAll%2FAccounting%2F%40ES_JOURNALENTRY&history.keyword=motherpl
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/dfa/help/wpb/less/sfsf.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/dfa/help/wpb/less/text_styles_sfsf.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OQUT/OQUT()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=(((DocStatus%20eq%20%27O%27)%20and%20(UserSign%20eq%20%24%5bCURRENT_USER%5d)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/ORDR/ORDR()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=(((DocStatus%20eq%20%27O%27)%20and%20(UserSign%20eq%20%24%5bCURRENT_USER%5d)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OOAT/OOAT()?$select=Number,Descript,BpCode,CntctCode,Method,Type,Status,StartDate&$filter=(((Status%20eq%20%27A%27)%20and%20(BpType%20eq%20%27S%27)))&&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OPRQ/OPRQ()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=(((DocStatus%20eq%20%27O%27)%20and%20(UserSign%20eq%20%24%5bCURRENT_USER%5d)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OPOR/OPOR()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=(((DocStatus%20eq%20%27O%27)%20and%20(UserSign%20eq%20%24%5bCURRENT_USER%5d)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/ODLN/ODLN()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=(((DocStatus%20eq%20%27O%27)%20and%20(UserSign%20eq%20%24%5bCURRENT_USER%5d)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/ODPI/ODPI()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=((UserSign%20eq%20%24%5bCURRENT_USER%5d)%20and%20(DocStatus%20eq%20%27O%27%20and%20TransId%20NE%20null))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OINV/OINV()?$select=DocNum,CardCode,CardName,NumAtCard,DocDate,DocDueDate,DocStatus,DocEntry&$filter=(((DocStatus%20eq%20%27O%27)%20and%20(isIns%20eq%20%27N%27)%20and%20(UserSign%20eq%20%24%5bCURRENT_USER%5d)%20and%20(isIns%20eq%20%27N%27)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/anly/api/Query/v1/QueryResult
+BODY   : {"axes":[{"id":"[PostingDate].[PostingYear].[PostingYear]"},{"id":"[Measures].[NetSalesAmountLC]","aggregation":"SUM"}],"modelId":"ar.case::SalesAnalysisQuery","modelType":"CALCULATIONVIEW","filters":[{"id":"filter1","analysisObjectId":"[DocumentType].[DocumentTypeGroup].[DocumentTypeGroup]","formula":"COMPARISON","members":["Invoice"],"parameters":{"operator":"EQUAL"}},{"id":"filter2","formula":"CONDITION","conditionOperator":"ORS","conditions":[{"id":"filter_3","analysisObjectId":"[PostingDate].[PostingDate].[PostingDate]","formula":"COMPARISON","members":["%DATE:FIRST_DAY_OF_CURRENT_YEAR%","%DATE:TODAY%"],"parameters":{"operator":"BT"}},{"id":"filter_4","analysisObjectId":"[PostingDate].[PostingDate].[PostingDate]","formula":"COMPARISON","members":["%DATE:FIRST_DAY_OF_LAST_YEAR%","%DATE:TODAY_OF_RECENT_N_YEAR;2%"],"parameters":{"operator":"BT"}}]}],"zeroComplements":[{"target":"RESULT_SET","startDate":"%DATE:FIRST_DAY_OF_LAST_YEAR%","endDate":"%DATE:TODAY%"}],"orderInfo":{"defaultOrder":true,"orderBys":[{"id":"[PostingDate].[PostingYear].[PostingYear]","flag":"DESC"}]}}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/anly/api/Query/v1/QueryResult
+BODY   : {"axes":[{"id":"[BusinessPartner].[BusinessPartnerGroupName].[BusinessPartnerGroupName]"},{"id":"[Measures].[NetSalesAmountLC]","aggregation":"SUM"}],"modelId":"ar.case::SalesAnalysisQuery","modelType":"CALCULATIONVIEW","filters":[{"id":"filter1","analysisObjectId":"[DocumentType].[DocumentTypeGroup].[DocumentTypeGroup]","formula":"COMPARISON","members":["Invoice"],"parameters":{"operator":"EQUAL"}},{"id":"filter2","analysisObjectId":"[PostingDate].[PostingDate].[PostingDate]","formula":"COMPARISON","members":["%DATE:FIRST_DAY_OF_CURRENT_YEAR%","%DATE:TODAY%"],"parameters":{"operator":"BT"}}]}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/img/fake/NewsFeed.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:30 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/img/fake/UserGuide.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:31 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OCLG/OCLG()?$select=ClgCode,Details,Recontact,BeginTime,AttendUser,Action,CardCode,CntctCode,AssignedBy,Closed&$filter=(((Closed%20eq%20%27N%27)%20and%20(AttendUser%20eq%20%24%5bCURRENT_USER%5d)))&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:31 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/odata2.svc/OOPR/OOPR()?$select=OpprId,CardCode,CardName,MaxSumLoc&$filter=(Status%20eq%20%27O%27)&&$top=0&$inlinecount=allpages
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:31 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Light.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:32 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:40 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=7819
+BODY   : command=GetQueryHistory&history.scope=All%2FMaster%20Data%2F%40ES_RESOURCEMD%3BAll%2FMaster%20Data%2F%40ES_ITEM%3BAll%2FMaster%20Data%2F%40ES_BP%3BAll%2FAR%2F%40ES_SALESORDER%3BAll%2FAR%2F%40ES_SALESDELIVERY%3BAll%2FAR%2F%40ES_SALESQUOTATION%3BAll%2FAR%2F%40ES_SALESARINVOICE%3BAll%2FAR%2F%40ES_AR_CREDIT_MEMO%3BAll%2FAR%2F%40ES_SALESRETURNS%3BAll%2FAR%2F%40ES_SALESAR_R_I%3BAll%2FInventory%2F%40ES_INVENTORYGOODSRECEIPT%3BAll%2FInventory%2F%40ES_INVENTORYGOODSISSUE%3BAll%2FService%2F%40ES_KNOWLEDGE_BASE%3BAll%2FService%2F%40ES_ACTIVITY%3BAll%2FService%2F%40ES_SERVICECALL%3BAll%2FProduction%2F%40ES_PRODUCTIONORDER%3BAll%2FProduction%2F%40ES_BOM%3BAll%2FAP%2F%40ES_AP_INVOICE%3BAll%2FAP%2F%40ES_PURCHASE_ORDER%3BAll%2FAP%2F%40ES_GOODSRETURN%3BAll%2FAP%2F%40ES_GOODSRECEIPTPO%3BAll%2FAP%2F%40ES_PURCHASEQUOTATION%3BAll%2FAP%2F%40ES_APRESERVEINVOICE%3BAll%2FAP%2F%40ES_AP_CREDIT_MEMO%3BAll%2FSales%20Opportunity%2F%40ES_OPPORTUNITY%3BAll%2FBanking%2F%40ES_OP%3BAll%2FBanking%2F%40ES_IP%3BAll%2FAccounting%2F%40ES_JOURNALENTRY&history.keyword=motherp
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:40 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/Apps.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:40 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/content/app.info.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:41 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ca/scfld/md/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:41 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ca/ui/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:41 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/me/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:41 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/Component-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:42 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ca/ui/themes/sap_horizon/library.css?version=1.136.3&sap-ui-dist-version=1.136.9
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:42 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/me/themes/sap_horizon/library.css?version=1.136.7&sap-ui-dist-version=1.136.9
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:42 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:42 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/i18n/i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:42 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/css/style.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:42 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/i18n/i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:43 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/BarcodeScanner.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:43 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/BarcodeScannerUIContainer.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:43 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/_thirdparty/purify.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:43 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/thirdparty/zxingcpp/zxing_reader.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:43 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/css/sapNdcBarcodeScanner.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:43 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/resources/chart/langs/language_en.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/resources/framework/langs/language_en.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NCNFG?$filter=U_NAPP%20eq%20%27Flower%20Planner%27%20or%20U_NAPP%20eq%20%27AllApps%27%20or%20U_NAPP%20eq%20%27Mother%20Plants%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-SemiboldDuplex.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NWMET
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NWREA
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NWTHS
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NINGT?$filter=U_NITTP%20eq%20%27METRC%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$select=ItemName,ItemsGroupCode,ItemCode,InventoryUOM,ProdStdCost,DefaultSalesUoMEntry
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:44 pm
+METHOD : GET
+URL    : blob:https://ghdev.seedandbeyond.com:223/eaf2c8ae-3226-4f41-bdf7-aeb32e881a70
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:45 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/index.html
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=Inactive%20eq%20%27tNO%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=BinCode,U_MetrcLicense,U_MetrcLocation,U_Branch,Warehouse,AbsEntry&$orderby=U_MetrcLicense%20asc,BinCode%20asc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/index.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/big.min.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/shell.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/ace-editor/ace.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/ace-editor/ext-language_tools.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap-ui-core.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/lib/cvom/viz_base.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/bootstrap.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/index.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/dbtype/get.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/fe/navigation/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vk/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/AppCacheBuster.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/share/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/extension/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/api/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:47 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/components/resources/i18n/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/resources/resources_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/i18n/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/sap-ui-cachebuster-info.json?sap-ui-language=en-US
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/ext/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/dialog/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/cldr/en.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/d3.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/require.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/codeeditor/library.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/themes/sap_horizon/library.css?version=1.0.0
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/export/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/layout/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/unified/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-widget.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/table/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vk/themes/sap_horizon/library.css?version=1.136.2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/f/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/sap_horizon/library.css?version=1.136.8
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/commons/themes/sap_horizon/library.css?version=1.136.5
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/mdc/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/suite/ui/microchart/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/vbm/themes/sap_horizon/library.css?version=1.136.1
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/uxap/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/collaboration/themes/sap_horizon/library.css?version=1.136.0
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/comp/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/SAP-icons.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Regular.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-SemiboldDuplex.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/codeeditor/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/esh/search/ui/themes/sap_horizon/library.css?version=1.136.4
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-mouse.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-draggable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-droppable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/themes/sap_horizon/library.css?version=1.136.7
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/apps/player/core/FilterUtil.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/dbtype/get.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/gate/api/csrf
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/data/user.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/OLNG/search
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/OFPR/search
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+BODY   : {}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:48 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+BODY   : {}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/sandbox/Sandbox_bundle.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/sac/df/thirdparty/lodash.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/FixUI5.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/3rdparty/sbo-udv-expression/dist/sbo-udv-expression.bundle.amd.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/renderer/resources/resources_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/jqueryui/jquery-ui-selectable.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/require.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/sandbox/Controller_bundle.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/fonts/BusinessSuiteInAppSymbols.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/base/fonts/SAP-icons-TNT.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-extensions.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/addon/system/ta/manifest.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap-ui-version.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/tile/tiles.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1ah/es
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/bootstrap/Apps.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/fonts/BusinessSuiteInAppSymbols.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/tnt/themes/base/fonts/horizon/SAP-icons-TNT.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=8687
+BODY   : command=GetBOList&rep.path=All
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/img/logo@sap_horizon.png
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/thirdparty/datajs.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/addon/system/ta/global.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/content/app.info.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/tcli/service/tile/catalog.svc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:50 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/136479/sync/manifest.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/content/report/i18n/profitloss_i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/content/report/i18n/salesanalysis_i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ca/scfld/md/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ca/ui/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/me/library-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/Component-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ca/ui/themes/sap_horizon/library.css?version=1.136.3&sap-ui-dist-version=1.136.9
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/me/themes/sap_horizon/library.css?version=1.136.7&sap-ui-dist-version=1.136.9
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/i18n/i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/css/style.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:52 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/i18n/i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/BarcodeScanner.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/bootstrap/SchedulingAgent/StepConfiguration.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/bootstrap/SchedulingAgent/LoadingConfiguration.json
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/BarcodeScannerUIContainer.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/m/_thirdparty/purify.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/thirdparty/zxingcpp/zxing_reader.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/css/sapNdcBarcodeScanner.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ndc/messagebundle_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/resources/chart/langs/language_en.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/resources/framework/langs/language_en.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NCNFG?$filter=U_NAPP%20eq%20%27Flower%20Planner%27%20or%20U_NAPP%20eq%20%27AllApps%27%20or%20U_NAPP%20eq%20%27Mother%20Plants%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NWMET
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NWREA
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NWTHS
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NINGT?$filter=U_NITTP%20eq%20%27METRC%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$select=ItemName,ItemsGroupCode,ItemCode,InventoryUOM,ProdStdCost,DefaultSalesUoMEntry
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : blob:https://ghdev.seedandbeyond.com:223/bfe96c05-8232-4b31-924b-d558a95e81b2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:53 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=Inactive%20eq%20%27tNO%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=BinCode,U_MetrcLicense,U_MetrcLocation,U_Branch,Warehouse,AbsEntry&$orderby=U_MetrcLicense%20asc,BinCode%20asc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:54 pm
+METHOD : GET
+URL    : https://sandbox-api-ca.metrc.com/facilities/v2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:55 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB7.B50%27%20and%20Quantity%20ne%200%20and%20U_Phase%20eq%20%27Mother%27%20and%20((endswith(ItemName,%27Teen%27)%20or%20contains(ItemName,%27Clone%27)))&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/GetBadgeNumber()
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications/$count
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications?$expand=Actions,NavigationTargetParams&$orderby=CreatedAt%20desc&$filter=IsGroupHeader%20eq%20false&$skip=0&$top=10
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/i18n/B1MessagesHandler_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/dfa/help/utils/adapters/fiori/Component-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/dfa/help/wpb/less/sfsf.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:56 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/dfa/help/wpb/less/text_styles_sfsf.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:18:57 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications?$expand=Actions,NavigationTargetParams&$filter=IsGroupHeader%20eq%20true
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB9.B54%27%20and%20Quantity%20ne%200%20and%20U_Phase%20eq%20%27Mother%27%20and%20((endswith(ItemName,%27Teen%27)%20or%20contains(ItemName,%27Clone%27)))&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(BinCode,%27LIC%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB9.B54%27%20and%20Quantity%20ne%200%20and%20U_Phase%20eq%20%27Mother%27%20and%20((endswith(ItemName,%27Teen%27)%20or%20contains(ItemName,%27Clone%27)))&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(BinCode,%27LIC%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:01 pm
+METHOD : GET
+URL    : https://sandbox-api-ca.metrc.com/tags/v2/package/available?licenseNumber=C12-1000009-LIC
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:02 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_METRC_ITEMS_VW?$filter=MT_LicenseFacility%20eq%20%27C12-1000009-LIC%27%20and%20MT_ItemName%20eq%20%27GKM%3AGKM%3A%20Gelato%20%2341%20x%20Kush%20Mints%20-%20Clone%20Cuttings%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:23 pm
+METHOD : GET
+URL    : https://sandbox-api-ca.metrc.com/tags/v2/package/available?licenseNumber=C12-1000009-LIC
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:25 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_METRC_ITEMS_VW?$filter=MT_LicenseFacility%20eq%20%27C12-1000009-LIC%27%20and%20MT_ItemName%20eq%20%27MMT629%3A%20Mama%27%27s%20Mai%20Tai%20629%20-%20Clone%20Cuttings%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:26 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(BinCode,%27LIC%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:26 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=contains(ItemName,%20%27Clone%20Cuttings%27)%20and%20U_NSTNM%20eq%20%27MMT629%3A%20Mama%27%27s%20Mai%20Tai%20629%27&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:27 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders
+BODY   : {"ItemNo":"606410","DistributionRule":"NURS","PlannedQuantity":"111.00","ProductionOrderType":"bopotSpecial","PostingDate":"2026-05-11","DueDate":"2026-05-11","Warehouse":"SNB9","Remarks":"Mother Plants - Create Package","ProductionOrderLines":[{"ItemNo":"L01","ItemType":"pit_Resource","PlannedQuantity":"111.00","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"}]}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:27 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+BODY   : --clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/ProductionOrders(288133)
+
+{"ProductionOrderStatus":"boposReleased"}
+
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/InventoryGenEntries
+
+{"BPL_IDAssignedToInvoice":"25","Comments":"Mother Plants - Create Package","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288133,"Quantity":"111.00","CostingCode":"NURS","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006171","Quantity":"111.00","Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000005608","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"YES","U_Phase":"Mother"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"111.00","SerialAndBatchNumbersBaseLine":0}]}]}
+
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/ProductionOrders(288133)
+
+{"ProductionOrderStatus":"boposClosed"}
+
+
+--clone_batch--
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:27 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:19:27.814Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/ProductionOrders","U_NLGBD":"\"{\\\"ItemNo\\\":\\\"606410\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":\\\"111.00\\\",\\\"ProductionOrderType\\\":\\\"bopotSpecial\\\",\\\"PostingDate\\\":\\\"2026-05-11\\\",\\\"DueDate\\\":\\\"2026-05-11\\\",\\\"Warehouse\\\":\\\"SNB9\\\",\\\"Remarks\\\":\\\"Mother Plants - Create Package\\\",\\\"ProductionOrderLines\\\":[{\\\"ItemNo\\\":\\\"L01\\\",\\\"ItemType\\\":\\\"pit_Resource\\\",\\\"PlannedQuantity\\\":\\\"111.00\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"}]}\"","U_NLGST":200,"U_NAPP":"MOP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:30 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:19:30.231Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/ProductionOrders(288133)\\r\\n\\r\\n{\\\"ProductionOrderStatus\\\":\\\"boposReleased\\\"}\\r\\n\\r\\n--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/InventoryGenEntries\\r\\n\\r\\n{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Mother Plants - Create Package\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288133,\\\"Quantity\\\":\\\"111.00\\\",\\\"CostingCode\\\":\\\"NURS\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006171\\\",\\\"Quantity\\\":\\\"111.00\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000005608\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"YES\\\",\\\"U_Phase\\\":\\\"Mother\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"111.00\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\\r\\n\\r\\n--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/ProductionOrders(288133)\\r\\n\\r\\n{\\\"ProductionOrderStatus\\\":\\\"boposClosed\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"MOP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:30 pm
+METHOD : POST
+URL    : https://sandbox-api-ca.metrc.com/plantbatches/v2/packages/frommotherplant?licenseNumber=C12-1000009-LIC
+BODY   : [{"PlantBatch":"1A4FF0200000261000005608","Count":111,"Location":"SNB9 - Bay 54","Item":"MMT629: Mama's Mai Tai 629 - Clone Cuttings","Tag":"1A4FF0300000261000006171","Note":"","ActualDate":"2026-05-11"}]
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:34 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+BODY   : {"U_NDTTM":"2026-05-11T18:19:34.903Z","U_NLGMT":"POST","U_NLURL":"/plantbatches/v2/packages/frommotherplant?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"PlantBatch\":\"1A4FF0200000261000005608\",\"Count\":111,\"Location\":\"SNB9 - Bay 54\",\"Item\":\"MMT629: Mama's Mai Tai 629 - Clone Cuttings\",\"Tag\":\"1A4FF0300000261000006171\",\"Note\":\"\",\"ActualDate\":\"2026-05-11\"}]","U_NLGRP":"{\"Ids\":[856506],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"MOP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:34 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold-full.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:35 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/flp/themes/base/fonts/72-Regular.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:35 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:19:35.952Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-05-11T18:19:34.903Z\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/plantbatches/v2/packages/frommotherplant?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"PlantBatch\\\\\\\":\\\\\\\"1A4FF0200000261000005608\\\\\\\",\\\\\\\"Count\\\\\\\":111,\\\\\\\"Location\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"Item\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629 - Clone Cuttings\\\\\\\",\\\\\\\"Tag\\\\\\\":\\\\\\\"1A4FF0300000261000006171\\\\\\\",\\\\\\\"Note\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"ActualDate\\\\\\\":\\\\\\\"2026-05-11\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[856506],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"MOP\\\"}\"","U_NLGRP":"782961","U_NLGST":200,"U_NAPP":"MOP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:36 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/sapui5/1.136.9/resources/sap/ui/core/themes/sap_horizon/fonts/72-Regular-full.woff2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:36 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB9.B54%27%20and%20Quantity%20ne%200%20and%20U_Phase%20eq%20%27Mother%27%20and%20((endswith(ItemName,%27Teen%27)%20or%20contains(ItemName,%27Clone%27)))&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:40 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_GH_BATCHQUERY_VW?$filter=U_Phase%20eq%20%27Mother%27%20and%20BinLocationCode%20eq%20%27SNB9.B54%27&$orderby=CreateDate%20desc,METRCUID%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:45 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_GH_BATCHQUERY_VW?$filter=U_Phase%20eq%20%27Mother%27%20and%20BinLocationCode%20eq%20%27SNB9.B54%27&$orderby=CreateDate%20desc,METRCUID%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:45 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(BinCode,%27LIC%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:45 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_GH_BATCHQUERY_VW?$filter=U_Phase%20eq%20%27Mother%27%20and%20BinLocationCode%20eq%20%27SNB9.B54%27&$orderby=CreateDate%20desc,METRCUID%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:45 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(BinCode,%27LIC%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:45 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:46 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+BODY   : --clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/BatchNumberDetails(4911821)
+
+{"U_Phase":"Immature","U_IsPackage":"NO"}
+
+
+--clone_batch--
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:46 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:19:46.666Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/BatchNumberDetails(4911821)\\r\\n\\r\\n{\\\"U_Phase\\\":\\\"Immature\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"MOP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:46 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_GH_BATCHQUERY_VW?$filter=U_Phase%20eq%20%27Mother%27%20and%20BinLocationCode%20eq%20%27SNB9.B54%27&$orderby=CreateDate%20desc,METRCUID%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/Component-preload.js
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/webx/~1777897510868~/resources/sap/ushell/themes/base/img/launchpad_favicon.ico
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:19:59 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/css/style.css
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NCNFG?$filter=U_NAPP%20eq%20%27AllApps%27%20or%20U_NAPP%20eq%20%27Clone%20Planner%27%20or%20U_NAPP%20eq%20%27Destroy%20&%20Record%20Waste%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:00 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NINGT?$filter=U_NITTP%20eq%20%27METRC%27
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:01 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=Inactive%20eq%20%27tNO%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=BinCode,U_MetrcLicense,U_MetrcLocation,U_Branch,AbsEntry,Warehouse&$orderby=U_MetrcLicense%20asc,BinCode%20asc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:01 pm
+METHOD : GET
+URL    : https://sandbox-api-ca.metrc.com/facilities/v2
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:02 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000007-LIC%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:02 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NWMET?$select=Name
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:02 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/U_NWREA?$select=Name
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:02 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB7.B50%27%20and%20Quantity%20ne%200%20and%20(U_Phase%20eq%20%27Immature%27%20or%20U_Phase%20eq%20%27Veg%27)&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:09 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/GetBadgeNumber()
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:09 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications/$count
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:09 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/noti/notification.svc/Notifications?$expand=Actions,NavigationTargetParams&$orderby=CreatedAt%20desc&$filter=IsGroupHeader%20eq%20false&$skip=0&$top=10
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:12 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB9.B54%27%20and%20Quantity%20ne%200%20and%20(U_Phase%20eq%20%27Immature%27%20or%20U_Phase%20eq%20%27Veg%27)&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:12 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:17 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=ItemName%20eq%20%27MMT629:%20Mama%27%27s%20Mai%20Tai%20629%20-%20Clone%20Sticking%27&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:17 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:17 pm
+METHOD : GET
+URL    : https://sandbox-api-ca.metrc.com/tags/v2/plant/available?licenseNumber=C12-1000009-LIC
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:19 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=%20ItemsGroupCode%20eq%20141&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,ItemWarehouseInfoCollection
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:19 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=%20ItemsGroupCode%20eq%20140&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,ItemWarehouseInfoCollection
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:19 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=contains(ItemName,%27Clone%27)%20or%20contains(ItemName,%27Seeds%27)&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:19 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+BODY   : --clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:27 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/UsersService_GetCurrentUser
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:28 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+BODY   : {"U_NDTTM":"2026-05-11","U_NLGMT":"PUT","U_NLURL":"/packages/v2/item?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006171\",\"Item\":\"MMT629: Mama's Mai Tai 629 - Clone Sticking\"}]","U_NLGRP":"\"\"","U_NLGST":"200","U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:28 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders
+BODY   : {"ItemNo":"606408","DistributionRule":"NURS","PlannedQuantity":"111","ProductionOrderType":"bopotSpecial","PostingDate":"2026-05-11","DueDate":"2026-05-11","Warehouse":"SNB9","Remarks":"Immature Plants - Change Growth Phase","ProductionOrderLines":[{"ItemNo":"L02","ItemType":"pit_Resource","PlannedQuantity":"111","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"},{"ItemNo":"606410","DistributionRule":"NURS","PlannedQuantity":111,"ProductionOrderIssueType":"im_Manual","Warehouse":"SNB9"},{"ItemNo":"810334","PlannedQuantity":"3","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"}]}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:28 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:20:28.949Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-05-11\\\",\\\"U_NLGMT\\\":\\\"PUT\\\",\\\"U_NLURL\\\":\\\"/packages/v2/item?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006171\\\\\\\",\\\\\\\"Item\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629 - Clone Sticking\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"\\\\\\\"\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"782962","U_NLGST":200,"U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:29 pm
+METHOD : PATCH
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288135)
+BODY   : {"ProductionOrderStatus":"boposReleased"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:29 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:20:29.394Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/ProductionOrders","U_NLGBD":"\"{\\\"ItemNo\\\":\\\"606408\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":\\\"111\\\",\\\"ProductionOrderType\\\":\\\"bopotSpecial\\\",\\\"PostingDate\\\":\\\"2026-05-11\\\",\\\"DueDate\\\":\\\"2026-05-11\\\",\\\"Warehouse\\\":\\\"SNB9\\\",\\\"Remarks\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"ProductionOrderLines\\\":[{\\\"ItemNo\\\":\\\"L02\\\",\\\"ItemType\\\":\\\"pit_Resource\\\",\\\"PlannedQuantity\\\":\\\"111\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"606410\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":111,\\\"ProductionOrderIssueType\\\":\\\"im_Manual\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"810334\\\",\\\"PlannedQuantity\\\":\\\"3\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"}]}\"","U_NLGST":200,"U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:30 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:20:30.117Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288135)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposReleased\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:30 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+BODY   : {"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288135,"Quantity":"111","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006171","Quantity":"111","Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000005608","U_Phase":"Immature","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"111","SerialAndBatchNumbersBaseLine":0}]}]}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:32 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:20:32.684Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288135,\\\"Quantity\\\":\\\"111\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006171\\\",\\\"Quantity\\\":\\\"111\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000005608\\\",\\\"U_Phase\\\":\\\"Immature\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"111\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459133","U_NLGST":200,"U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:37 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenExits
+BODY   : {"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288135,"BaseLine":1,"Quantity":111,"BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006171","Quantity":111,"Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000005608","ManufacturerSerialNumber":"HTVST-010102026"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":111,"SerialAndBatchNumbersBaseLine":0}]}]}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:40 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:20:40.205Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenExits","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288135,\\\"BaseLine\\\":1,\\\"Quantity\\\":111,\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006171\\\",\\\"Quantity\\\":111,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000005608\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":111,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"614096","U_NLGST":200,"U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:40 pm
+METHOD : PATCH
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288135)
+BODY   : {"ProductionOrderStatus":"boposClosed"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:41 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+BODY   : {"U_NDTTM":"2026-05-11T18:20:41.316Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288135)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposClosed\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:41 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=BinLocationCode%20eq%20%27SNB9.B54%27%20and%20Quantity%20ne%200%20and%20(U_Phase%20eq%20%27Immature%27%20or%20U_Phase%20eq%20%27Veg%27)&$orderby=CreateDate%20desc,BatchNum%20desc
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=ItemName%20eq%20%27MMT629:%20Mama%27%27s%20Mai%20Tai%20629%20-%20Teen%27&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:48 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/BinLocations?$filter=U_MetrcLicense%20eq%20%27C12-1000009-LIC%27%20and%20not(startswith(Sublevel1,%27SYSTEM%27))&$select=U_MetrcLicense,U_MetrcLocation,Sublevel2,BinCode,AbsEntry,Warehouse
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:48 pm
+METHOD : GET
+URL    : https://sandbox-api-ca.metrc.com/tags/v2/plant/available?licenseNumber=C12-1000009-LIC
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=%20ItemsGroupCode%20eq%20141&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,ItemWarehouseInfoCollection
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=%20ItemsGroupCode%20eq%20140&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,ItemWarehouseInfoCollection
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:49 pm
+METHOD : GET
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/Items?$filter=contains(ItemName,%27Clone%27)%20or%20contains(ItemName,%27Seeds%27)&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM
+====================================
+
+====================================
+TIME   : 11/5/2026, 6:20:49 pm
+METHOD : POST
+URL    : https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+BODY   : --clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606408'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+====================================
