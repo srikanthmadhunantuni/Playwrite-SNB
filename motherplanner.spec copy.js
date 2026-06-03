@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 test.setTimeout(1600000);
+test.setTimeout(1600000);
 
 test.use({
   ignoreHTTPSErrors: true,
