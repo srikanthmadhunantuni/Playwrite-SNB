@@ -499,8 +499,72 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
     console.log('Marked As Immature');
 
+     console.log('Opening Immature Plants');
+  await page.locator('[id="__xmlview1--navigate-arrow"]').click();
+  await page.getByRole('option', { name: 'Immature Plants' }).click();
 
 
+      // ==================================================
+    // START API CAPTURE
+    // ==================================================
+
+    captureApis = true;
+
+    console.log('API Capture Started');
+
+    await page.reload({ waitUntil: 'domcontentloaded' });
+    await safeWait(10000);
+
+    console.log('Page Reloaded Successfully');
+
+    // ==================================================
+    // ==================================================
+    //  MOTHER PLANNER FLOW  (was Test 1)
+    // ==================================================
+    // ==================================================
+
+    // ==================================================
+    // SELECT LOCATION
+    // ==================================================
+
+    logAction('SELECT LOCATION');
+
+    await selectLocation('SNB9.B54 - C12-1000009-LIC');
+
+    console.log('Location Selected Successfully');
+
+    // ==================================================
+    // SEARCH Cuttings
+    // ==================================================
+
+    logAction('SEARCH Cuttings');
+
+    console.log('Searching Clone cuttings');
+
+    await page.getByRole('textbox', { name: 'Search' }).fill('Cuttings');
+    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+    await page.getByRole('textbox', { name: 'Search' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).fill('Clone Cuttings');
+    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByText('Sort Descending').click();
+    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+    await page.getByRole('button', { name: 'Additional Options' }).click();
+    await page.getByRole('button', { name: 'Change Growth Phase' }).click();
+    await page.getByRole('combobox', { name: 'Plugs' }).click();
+    await page.locator('#changeGrowthPhaseDialog--itemSticking-arrow').click();
+    await page.getByRole('combobox', { name: 'Plugs' }).fill('Moms');
+    await page.locator('.sapMSLITitleOnly').click();
+    await page.getByRole('spinbutton', { name: 'No. of Plugs' }).click();
+    await page.getByRole('spinbutton', { name: 'No. of Plugs' }).fill('1');
+    await page.getByRole('button', { name: 'Ok' }).click();
+    await page.getByRole('dialog', { name: 'Messages' }).click();
+    console.log('Cutting Search Completed');
+
+
+
+
+    
   } finally {
 
     captureApis = false;
