@@ -552,6 +552,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     await page.getByRole('button', { name: 'Additional Options' }).click();
     await page.getByRole('button', { name: 'Change Growth Phase' }).click();
     await page.getByRole('combobox', { name: 'Plugs' }).click();
+    await safeWait(10000);
     await page.locator('#changeGrowthPhaseDialog--itemSticking-arrow').click();
     await page.getByRole('combobox', { name: 'Plugs' }).fill('Moms');
     await page.locator('.sapMSLITitleOnly').click();
