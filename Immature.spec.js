@@ -324,10 +324,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     console.log('Company Selected / Already Loaded');
 
     // ==================================================
-    // OPEN MOTHER PLANTS
+    // OPEN Immature Plants
     // ==================================================
 
-    console.log('Opening Mother Plants Module');
+    console.log('Opening Immature Plants Module');
 
     await page.getByRole('button', { name: 'Open Search' }).click({ force: true });
 
