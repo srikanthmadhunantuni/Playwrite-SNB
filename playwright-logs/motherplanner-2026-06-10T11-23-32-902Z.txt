@@ -1,0 +1,1080 @@
+PLAYWRIGHT EXECUTION LOG
+STARTED: Wed Jun 10 2026 16:53:32 GMT+0530 (India Standard Time)
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=8820
+
+PAYLOAD:
+command=GetBOList&rep.path=All
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Query/v1/QueryResult
+
+PAYLOAD:
+{"axes":[{"id":"[PostingDate].[PostingYear].[PostingYear]"},{"id":"[Measures].[NetSalesAmountLC]","aggregation":"SUM"}],"modelId":"ar.case::SalesAnalysisQuery","modelType":"CALCULATIONVIEW","filters":[{"id":"filter1","analysisObjectId":"[DocumentType].[DocumentTypeGroup].[DocumentTypeGroup]","formula":"COMPARISON","members":["Invoice"],"parameters":{"operator":"EQUAL"}},{"id":"filter2","formula":"CONDITION","conditionOperator":"ORS","conditions":[{"id":"filter_3","analysisObjectId":"[PostingDate].[PostingDate].[PostingDate]","formula":"COMPARISON","members":["%DATE:FIRST_DAY_OF_CURRENT_YEAR%","%DATE:TODAY%"],"parameters":{"operator":"BT"}},{"id":"filter_4","analysisObjectId":"[PostingDate].[PostingDate].[PostingDate]","formula":"COMPARISON","members":["%DATE:FIRST_DAY_OF_LAST_YEAR%","%DATE:TODAY_OF_RECENT_N_YEAR;2%"],"parameters":{"operator":"BT"}}]}],"zeroComplements":[{"target":"RESULT_SET","startDate":"%DATE:FIRST_DAY_OF_LAST_YEAR%","endDate":"%DATE:TODAY%"}],"orderInfo":{"defaultOrder":true,"orderBys":[{"id":"[PostingDate].[PostingYear].[PostingYear]","flag":"DESC"}]}}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Query/v1/QueryResult
+
+PAYLOAD:
+{"axes":[{"id":"[BusinessPartner].[BusinessPartnerGroupName].[BusinessPartnerGroupName]"},{"id":"[Measures].[NetSalesAmountLC]","aggregation":"SUM"}],"modelId":"ar.case::SalesAnalysisQuery","modelType":"CALCULATIONVIEW","filters":[{"id":"filter1","analysisObjectId":"[DocumentType].[DocumentTypeGroup].[DocumentTypeGroup]","formula":"COMPARISON","members":["Invoice"],"parameters":{"operator":"EQUAL"}},{"id":"filter2","analysisObjectId":"[PostingDate].[PostingDate].[PostingDate]","formula":"COMPARISON","members":["%DATE:FIRST_DAY_OF_CURRENT_YEAR%","%DATE:TODAY%"],"parameters":{"operator":"BT"}}]}
+==================================================
+
+
+====================================
+ACTION: SELECT LOCATION
+====================================
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/BatchNumberDetails(4912261)
+
+{"U_LotNumber":"lotlot"}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T16:57:13.183Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/BatchNumberDetails(4912261)\\r\\n\\r\\n{\\\"U_LotNumber\\\":\\\"lotlot\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Tag":"1A4FF0300000261000006326","Location":"SNB9 - Bay 54","Item":"MMT629: Mama's Mai Tai 629 - Clone Cuttings","Quantity":3,"UnitOfMeasure":"Each","Note":"Immature plants - split batch","ActualDate":"2026-06-10","Ingredients":[{"Package":"1A4FF0300000261000006322","Quantity":3,"UnitOfMeasure":"Each"}]}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Tag\":\"1A4FF0300000261000006326\",\"Location\":\"SNB9 - Bay 54\",\"Item\":\"MMT629: Mama's Mai Tai 629 - Clone Cuttings\",\"Quantity\":3,\"UnitOfMeasure\":\"Each\",\"Note\":\"Immature plants - split batch\",\"ActualDate\":\"2026-06-10\",\"Ingredients\":[{\"Package\":\"1A4FF0300000261000006322\",\"Quantity\":3,\"UnitOfMeasure\":\"Each\"}]}]","U_NLGRP":"{\"Ids\":[861901],\"Warnings\":[]}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/InventoryGenExits
+
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Split Batch","DocumentLines":[{"ItemCode":"606410","WarehouseCode":"SNB9","Quantity":3,"CostingCode":"NURS","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006322","Quantity":3,"Location":"SNB9.B54"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":3,"SerialAndBatchNumbersBaseLine":0}]}]}
+
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/InventoryGenEntries
+
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Split Batch","DocumentLines":[{"ItemCode":"606410","WarehouseCode":"SNB9","Quantity":3,"UnitPrice":0.1,"CostingCode":"NURS","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006326","Quantity":3,"Location":"SNB9.B54","U_Phase":"Immature","U_BatAttr3":"1A4FF0200000261000008536","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lotlot","U_IsPackage":"NO"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":3,"SerialAndBatchNumbersBaseLine":0}]}]}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T17:20:49.306Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Tag\\\\\\\":\\\\\\\"1A4FF0300000261000006326\\\\\\\",\\\\\\\"Location\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"Item\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629 - Clone Cuttings\\\\\\\",\\\\\\\"Quantity\\\\\\\":3,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"Note\\\\\\\":\\\\\\\"Immature plants - split batch\\\\\\\",\\\\\\\"ActualDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"Ingredients\\\\\\\":[{\\\\\\\"Package\\\\\\\":\\\\\\\"1A4FF0300000261000006322\\\\\\\",\\\\\\\"Quantity\\\\\\\":3,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\"}]}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[861901],\\\\\\\"Warnings\\\\\\\":[]}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783660","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T17:20:52.113Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/InventoryGenExits\\r\\n\\r\\n{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Split Batch\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":3,\\\"CostingCode\\\":\\\"NURS\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006322\\\",\\\"Quantity\\\":3,\\\"Location\\\":\\\"SNB9.B54\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":3,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\\r\\n\\r\\n--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/InventoryGenEntries\\r\\n\\r\\n{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Split Batch\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":3,\\\"UnitPrice\\\":0.1,\\\"CostingCode\\\":\\\"NURS\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006326\\\",\\\"Quantity\\\":3,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Immature\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000008536\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lotlot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":3,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+PUT
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/strain?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Name":"1A4FF0200000261000006687","StrainName":"SAGE"}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"PUT","U_NLURL":"/plantbatches/v2/strain?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Name\":\"1A4FF0200000261000006687\",\"StrainName\":\"SAGE\"}]","U_NLGRP":"\"There are no remaining Plants in the specified Plant Batch.\\n\"","U_NLGST":400,"U_NAPP":"CP"}
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+400
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/strain?licenseNumber=C12-1000009-LIC
+
+RESPONSE:
+[{"row":0,"message":"There are no remaining Plants in the specified Plant Batch."}]
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T17:44:36.240Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"PUT\\\",\\\"U_NLURL\\\":\\\"/plantbatches/v2/strain?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Name\\\\\\\":\\\\\\\"1A4FF0200000261000006687\\\\\\\",\\\\\\\"StrainName\\\\\\\":\\\\\\\"SAGE\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"There are no remaining Plants in the specified Plant Batch.\\\\\\\\n\\\\\\\"\\\",\\\"U_NLGST\\\":400,\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783661","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7852/ext-harvest-planner-app-content/sapb1harvest-planner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7852/ext-harvest-planner-app-content/sapb1harvest-planner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+400
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=U_Phase%20eq%20%27Harvest%27%20and%20endswith(ItemName,%27Cannabis%20Plant%27)%20and%20MnfSerial%20eq%20%27[not%20yet%20evaluated]%27%20and%20BinLocationCode%20eq%27SNB9.B54%27&$orderby=BatchAbsEntry
+
+RESPONSE:
+<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1></body></html>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+400
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/sml.svc/CV_IMMATURE_PLANNER_VW?$filter=U_Phase%20eq%20%27Harvest%27%20and%20endswith(ItemName,%27Cannabis%20Plant%27)%20and%20MnfSerial%20eq%20%27[not%20yet%20evaluated]%27%20and%20BinLocationCode%20eq%27SNB9.B54%27&$orderby=BatchAbsEntry
+
+RESPONSE:
+<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1></body></html>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/adjust?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006326","Quantity":-1,"UnitOfMeasure":"Each","AdjustmentReason":"Damage","AdjustmentDate":"2026-06-10","ReasonNote":"Immature plants - destroy button (adjust)"}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/adjust?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006326\",\"Quantity\":-1,\"UnitOfMeasure\":\"Each\",\"AdjustmentReason\":\"Damage\",\"AdjustmentDate\":\"2026-06-10\",\"ReasonNote\":\"Immature plants - destroy button (adjust)\"}]","U_NLGRP":"{\"Ids\":[861901],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/NDRPL
+
+{"U_NPQTY":"1","U_NDTRS":"Damage","U_NNOTE":"notes","U_NCLPL":"CLONES","U_NPHSE":"CLONES","U_NWTUM":"Pounds","U_NWTMT":"Compost","U_NMTUS":"soil","U_NLCNM":"SNB9.B54","U_NCRDT":"2026-06-10","U_NLFID":"C12-1000009-LIC","U_NPLID":"1A4FF0300000261000006326","U_NPBID":"1A4FF0300000261000006326"}
+
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/InventoryGenExits
+
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Destroy Plants","DocumentLines":[{"ItemCode":"606410","WarehouseCode":"SNB9","Quantity":"1","CostingCode":"NURS","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006326","Quantity":"1","Location":"SNB9.B54"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"1","SerialAndBatchNumbersBaseLine":0}]}]}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:23:17.085Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/adjust?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006326\\\\\\\",\\\\\\\"Quantity\\\\\\\":-1,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"AdjustmentReason\\\\\\\":\\\\\\\"Damage\\\\\\\",\\\\\\\"AdjustmentDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"ReasonNote\\\\\\\":\\\\\\\"Immature plants - destroy button (adjust)\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[861901],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783662","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:23:18.302Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/NDRPL\\r\\n\\r\\n{\\\"U_NPQTY\\\":\\\"1\\\",\\\"U_NDTRS\\\":\\\"Damage\\\",\\\"U_NNOTE\\\":\\\"notes\\\",\\\"U_NCLPL\\\":\\\"CLONES\\\",\\\"U_NPHSE\\\":\\\"CLONES\\\",\\\"U_NWTUM\\\":\\\"Pounds\\\",\\\"U_NWTMT\\\":\\\"Compost\\\",\\\"U_NMTUS\\\":\\\"soil\\\",\\\"U_NLCNM\\\":\\\"SNB9.B54\\\",\\\"U_NCRDT\\\":\\\"2026-06-10\\\",\\\"U_NLFID\\\":\\\"C12-1000009-LIC\\\",\\\"U_NPLID\\\":\\\"1A4FF0300000261000006326\\\",\\\"U_NPBID\\\":\\\"1A4FF0300000261000006326\\\"}\\r\\n\\r\\n--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/InventoryGenExits\\r\\n\\r\\n{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Destroy Plants\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":\\\"1\\\",\\\"CostingCode\\\":\\\"NURS\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006326\\\",\\\"Quantity\\\":\\\"1\\\",\\\"Location\\\":\\\"SNB9.B54\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"1\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/adjust?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006326","Quantity":11,"UnitOfMeasure":"Each","AdjustmentReason":"Incorrect Quantity","AdjustmentDate":"2026-06-10","ReasonNote":"notes"}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/adjust?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006326\",\"Quantity\":11,\"UnitOfMeasure\":\"Each\",\"AdjustmentReason\":\"Incorrect Quantity\",\"AdjustmentDate\":\"2026-06-10\",\"ReasonNote\":\"notes\"}]","U_NLGRP":"{\"Ids\":[861901],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Adjust","DocumentLines":[{"ItemCode":"606410","CostingCode":"PROC","ItmGrpCode":100,"WarehouseCode":"SNB9","Quantity":11,"UnitPrice":0.1,"BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006326","Quantity":11,"Location":"SNB9.B54"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":11,"SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:31:44.954Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/adjust?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006326\\\\\\\",\\\\\\\"Quantity\\\\\\\":11,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"AdjustmentReason\\\\\\\":\\\\\\\"Incorrect Quantity\\\\\\\",\\\\\\\"AdjustmentDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"ReasonNote\\\\\\\":\\\\\\\"notes\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[861901],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783663","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:31:45.939Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Adjust\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"CostingCode\\\":\\\"PROC\\\",\\\"ItmGrpCode\\\":100,\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":11,\\\"UnitPrice\\\":0.1,\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006326\\\",\\\"Quantity\\\":11,\\\"Location\\\":\\\"SNB9.B54\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":11,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459761","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=569
+
+PAYLOAD:
+command=GetBOList&rep.path=All
+==================================================
+
+
+====================================
+ACTION: SELECT LOCATION
+====================================
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/adjust?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006326","Quantity":11,"UnitOfMeasure":"Each","AdjustmentReason":"Incorrect Quantity","AdjustmentDate":"2026-06-10","ReasonNote":"notes"}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/adjust?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006326\",\"Quantity\":11,\"UnitOfMeasure\":\"Each\",\"AdjustmentReason\":\"Incorrect Quantity\",\"AdjustmentDate\":\"2026-06-10\",\"ReasonNote\":\"notes\"}]","U_NLGRP":"{\"Ids\":[861901],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Adjust","DocumentLines":[{"ItemCode":"606410","CostingCode":"PROC","ItmGrpCode":100,"WarehouseCode":"SNB9","Quantity":11,"UnitPrice":0.1,"BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006326","Quantity":11,"Location":"SNB9.B54"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":11,"SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:33:42.350Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/adjust?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006326\\\\\\\",\\\\\\\"Quantity\\\\\\\":11,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"AdjustmentReason\\\\\\\":\\\\\\\"Incorrect Quantity\\\\\\\",\\\\\\\"AdjustmentDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"ReasonNote\\\\\\\":\\\\\\\"notes\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[861901],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783664","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:33:42.921Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Adjust\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"CostingCode\\\":\\\"PROC\\\",\\\"ItmGrpCode\\\":100,\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":11,\\\"UnitPrice\\\":0.1,\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006326\\\",\\\"Quantity\\\":11,\\\"Location\\\":\\\"SNB9.B54\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":11,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459762","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/adjust?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006326","Quantity":11,"UnitOfMeasure":"Each","AdjustmentReason":"Incorrect Quantity","AdjustmentDate":"2026-06-10","ReasonNote":"nts"}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/adjust?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006326\",\"Quantity\":11,\"UnitOfMeasure\":\"Each\",\"AdjustmentReason\":\"Incorrect Quantity\",\"AdjustmentDate\":\"2026-06-10\",\"ReasonNote\":\"nts\"}]","U_NLGRP":"{\"Ids\":[861901],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Adjust","DocumentLines":[{"ItemCode":"606410","CostingCode":"PROC","ItmGrpCode":100,"WarehouseCode":"SNB9","Quantity":11,"UnitPrice":0.1,"BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006326","Quantity":11,"Location":"SNB9.B54"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":11,"SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:34:13.913Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/adjust?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006326\\\\\\\",\\\\\\\"Quantity\\\\\\\":11,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"AdjustmentReason\\\\\\\":\\\\\\\"Incorrect Quantity\\\\\\\",\\\\\\\"AdjustmentDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"ReasonNote\\\\\\\":\\\\\\\"nts\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[861901],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783665","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:34:14.629Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Adjust\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"CostingCode\\\":\\\"PROC\\\",\\\"ItmGrpCode\\\":100,\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":11,\\\"UnitPrice\\\":0.1,\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006326\\\",\\\"Quantity\\\":11,\\\"Location\\\":\\\"SNB9.B54\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":11,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459764","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/adjust?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006326","Quantity":11,"UnitOfMeasure":"Each","AdjustmentReason":"Incorrect Quantity","AdjustmentDate":"2026-06-10","ReasonNote":"nt"}]
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/adjust?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006326\",\"Quantity\":11,\"UnitOfMeasure\":\"Each\",\"AdjustmentReason\":\"Incorrect Quantity\",\"AdjustmentDate\":\"2026-06-10\",\"ReasonNote\":\"nt\"}]","U_NLGRP":"{\"Ids\":[861901],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Adjust","DocumentLines":[{"ItemCode":"606410","CostingCode":"PROC","ItmGrpCode":100,"WarehouseCode":"SNB9","Quantity":11,"UnitPrice":0.1,"BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006326","Quantity":11,"Location":"SNB9.B54"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":11,"SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:34:34.088Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/adjust?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006326\\\\\\\",\\\\\\\"Quantity\\\\\\\":11,\\\\\\\"UnitOfMeasure\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"AdjustmentReason\\\\\\\":\\\\\\\"Incorrect Quantity\\\\\\\",\\\\\\\"AdjustmentDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"ReasonNote\\\\\\\":\\\\\\\"nt\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[861901],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783666","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T19:34:34.602Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Adjust\\\",\\\"DocumentLines\\\":[{\\\"ItemCode\\\":\\\"606410\\\",\\\"CostingCode\\\":\\\"PROC\\\",\\\"ItmGrpCode\\\":100,\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"Quantity\\\":11,\\\"UnitPrice\\\":0.1,\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006326\\\",\\\"Quantity\\\":11,\\\"Location\\\":\\\"SNB9.B54\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":11,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459765","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/BatchNumberDetails(4912400)
+
+{"U_Phase":"Mother"}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T20:44:36.903Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/BatchNumberDetails(4912400)\\r\\n\\r\\n{\\\"U_Phase\\\":\\\"Mother\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+========================================
+API FILE SAVED: C:\Users\91798\Desktop\Githubtesting\Playwrite-SNB\playwright-logs\motherplanner-2026-06-10T11-23-32-902Z.txt
+========================================

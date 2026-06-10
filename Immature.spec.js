@@ -629,13 +629,161 @@ await safeWait(10000);
   const digits = Math.floor(1000 + Math.random() * 9000);
   return `HRST${digits}`;
 }
-
+ await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+ await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
 await page.getByRole('button', { name: 'Edit Harvest Name' }).click();
 await page.getByRole('textbox', { name: 'New Harvest Name' }).click();
 await page.getByRole('textbox', { name: 'New Harvest Name' }).fill(generateHarvestName());
 await page.getByRole('button', { name: 'Update', exact: true }).click();
     await safeWait(10000);
 
+ // ==================================================
+    // Edit Lot Number
+    // ==================================================
+    logAction('Edit Lot Number');
+
+
+  // Generate Lot1234, Lot5678, etc.
+  const lotNumber = `Lot${Math.floor(1000 + Math.random() * 9000)}`;
+
+  console.log('Generated Lot Number:', lotNumber);
+
+  await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+  await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+
+  await page.getByRole('button', { name: 'Edit Lot Number' }).click();
+
+  await page.getByRole('textbox', { name: 'Lot Number', exact: true }).click();
+  await page.getByRole('textbox', { name: 'Lot Number', exact: true }).fill(lotNumber);
+
+  await page.getByRole('button', { name: 'Update', exact: true }).click();
+
+  // ==================================================
+    // Split Batch
+    // ==================================================
+    logAction('Split Batch');
+
+    console.log('Split Batch');
+
+
+  await page.getByRole('button', { name: 'Clear All Filters' }).click();
+  await page.getByText('METRC UID').click();
+  await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+  await page.getByRole('button', { name: 'Additional Options' }).click();
+  await page.getByRole('button', { name: 'Split Batch' }).click();
+  await page.locator('#splitPackageClone--location-arrow').click();
+  await page.getByRole('searchbox', { name: 'Search' }).fill('snb9.b54');
+  await page.locator('[id="__select0-arrow"]').click();
+  await page.getByRole('option', { name: '1A4FF0300000261000006326' }).click();
+  await page.getByRole('textbox', { name: 'Quantity', exact: true }).fill('3');
+  await page.getByRole('button', { name: 'Create', exact: true }).click();
+
+// ==================================================
+    // Change Strain 
+    // ==================================================
+    logAction('Change Strain');
+
+    console.log('Change Strain');
+
+  await page.getByRole('button', { name: 'Clear All Filters' }).click();
+  await page.getByRole('textbox', { name: 'Search' }).click();
+  await page.getByRole('textbox', { name: 'Search' }).fill('teen');
+  await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+  await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+  await page.getByText('Sort Descending').click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+  await page.getByRole('button', { name: 'Additional Options' }).click();
+  await page.getByRole('button', { name: 'Change Strain' }).click();
+  await page.getByRole('textbox', { name: 'New Strain' }).click();
+  await page.getByRole('textbox', { name: 'New Strain' }).fill('sage');
+  await page.locator('[id="__text89-changeItemMETRC--productInputMETRC-changeItemMETRC--changeItemMETRCTable-0-1"]').getByText('SAGE').click();
+  await safeWait(10000);
+  await page.getByRole('button', { name: 'Update', exact: true }).click();
+  await page.locator('[id="__dialog0-TextLabel-text"]').click();
+  await page.locator('#sap-ui-blocklayer-popup').click();
+
+
+  // ==================================================
+    // Adjust
+    // ==================================================
+    logAction('Adjust');
+
+    console.log('Adjust');
+
+  await page.getByRole('button', { name: 'Clear All Filters' }).click();
+  await page.getByText('METRC UID').click();
+  await page.getByText('Sort Descending').click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+  await page.getByRole('button', { name: 'Additional Options' }).click();
+  await page.getByRole('button', { name: 'Adjust' }).click();
+  await page.getByRole('spinbutton', { name: 'Adj. Qty' }).click();
+  await page.getByRole('spinbutton', { name: 'Adj. Qty' }).fill('11');
+  await page.locator('[id="__item22-__table0-0-cell4"]').click();
+  await page.getByRole('gridcell', { name: 'Reason' }).getByLabel('Select Options').click();
+  await page.getByRole('combobox', { name: 'Reason' }).fill('Inc');
+  await page.getByText('Incorrect Quantity').click();
+  await page.getByRole('textbox', { name: 'Notes' }).click();
+  await page.getByRole('textbox', { name: 'Notes' }).fill('notes');
+  await page.getByRole('button', { name: 'Adjust' }).click();
+  await page.getByRole('progressbar', { name: 'Please wait' }).click();
+  await page.getByRole('progressbar', { name: 'Please wait' }).click();
+  await page.getByRole('button', { name: 'Adjust' }).click();
+  await page.getByText('We’re working on Adjust.').click();
+  await safeWait(10000);
+
+  // ==================================================
+    // Mark As Mother 
+    // ==================================================
+    logAction('Mark as Mother');
+
+    console.log('Mark as Mother');
+
+
+  await page.getByRole('button', { name: 'Clear All Filters' }).click();
+  await page.getByRole('textbox', { name: 'Search' }).click();
+  await page.getByRole('textbox', { name: 'Search' }).fill('cuttings');
+  await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+  await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+  await page.getByText('Sort Descending').click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+  await page.getByRole('button', { name: 'Mark as Mother' }).click();
+  await page.getByRole('alertdialog', { name: 'Confirmation Are you sure you' }).click();
+  await page.getByRole('button', { name: 'OK' }).click();
+
+ // ==================================================
+    // Distroy Plants 
+    // ==================================================
+    logAction('Distroy Plants');
+
+    console.log('Distroy Plants');
+
+    await page.getByRole('button', { name: 'Clear All Filters' }).click();
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+    await page.locator('[id="__xmlview5--clonePlannerTable-rowsel0"]').click();
+    await page.getByRole('button', { name: 'Additional Options' }).click();
+    await page.getByRole('button', { name: 'Destroy Plants' }).click();
+    await page.getByRole('textbox', { name: 'Quantity' }).click();
+    await page.getByRole('textbox', { name: 'Quantity' }).fill('1');
+    await page.getByRole('textbox', { name: 'Waste Wgt (lb)' }).click();
+    await page.getByRole('textbox', { name: 'Waste Wgt (lb)' }).fill('1');
+    await page.getByRole('gridcell', { name: 'Waste Method' }).getByLabel('Select Options').click();
+    await page.getByRole('combobox', { name: 'Waste Method' }).fill('Compo');
+    await safeWait(5000);
+    await page.getByText('Compost').click();
+    await page.getByRole('textbox', { name: 'Material Used' }).click();
+    await page.getByRole('textbox', { name: 'Material Used' }).fill('soil');
+    await page.getByRole('gridcell', { name: 'Reason' }).getByLabel('Select Options').click();
+    await page.getByRole('combobox', { name: 'Reason' }).fill('Damage');
+    await safeWait(5000);
+    await page.getByText('Damage').click();
+    await page.getByRole('textbox', { name: 'Notes' }).click();
+    await page.getByRole('textbox', { name: 'Notes' }).fill('notes');
+    await page.getByRole('button', { name: 'Destroy Plants' }).click();
+    await safeWait(10000);
 
 
   } finally {
