@@ -525,28 +525,77 @@ await safeWait(10000);
     // ==================================================
     // SEARCH Teen
     // ==================================================
-    logAction('SEARCH Teen');
+ // SEARCH Teen
+// ==================================================
+logAction('SEARCH Teen');
+console.log('Searching Teen plants');
 
-    console.log('Searching Teen plants');
+await page.getByRole('button', { name: 'Clear All Filters' }).click();
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await page.getByRole('textbox', { name: 'Search' }).click();
-    await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
-    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
-    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    await page.getByRole('button', { name: 'Additional Options' }).click();
-    await page.getByRole('button', { name: 'Change Growth Phase' }).click();
-    await page.locator('#changeGrowthPhaseDialog--beggingTag-arrow').click();
-    await safeWait(3000);
-    await page.getByRole('option', { name: '1A4FF0200000261000008544' }).click();
-    await safeWait(3000);
-    await page.getByRole('button', { name: 'Ok' }).click();
-    await page.locator('[id="__dialog0-TextLabel-text"]').click();
-    await page.locator('[id="__dialog0-TextLabel-text"]').click();
-    await page.getByText('We’re working on Changing the').click();
-    await safeWait(10000);
+await page.getByRole('textbox', { name: 'Search' }).click();
+await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
+await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+
+await safeWait(2000);
+
+await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+
+await safeWait(2000);
+
+await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+
+await page.getByRole('button', { name: 'Additional Options' }).click();
+await page.getByRole('button', { name: 'Change Growth Phase' }).click();
+
+await safeWait(2000);
+
+// Open Begging Tag dropdown
+const teenGrowthTagValue = '1A4FF0200000261000008544';
+
+const beggingTagArrow = page.locator('#changeGrowthPhaseDialog--beggingTag-arrow');
+await beggingTagArrow.waitFor({ state: 'visible', timeout: 30000 });
+await beggingTagArrow.click();
+
+await safeWait(1000);
+
+// Select Growth Tag safely
+try {
+  const option = page.getByRole('option', { name: teenGrowthTagValue }).first();
+  await option.waitFor({ state: 'visible', timeout: 15000 });
+  await option.click();
+} catch (error) {
+  console.log('Teen dropdown option not visible, using keyboard fallback');
+
+  await page.keyboard.type(teenGrowthTagValue);
+  await safeWait(1000);
+  await page.keyboard.press('Enter');
+}
+
+await safeWait(1000);
+
+// Click OK
+await page.getByRole('button', { name: 'Ok' }).click();
+
+// Optional dialog label handling
+const dialogLabel = page.locator('[id="__dialog0-TextLabel-text"]');
+
+try {
+  await dialogLabel.waitFor({ state: 'visible', timeout: 10000 });
+  await dialogLabel.click();
+  await safeWait(500);
+  await dialogLabel.click();
+} catch (error) {
+  console.log('Dialog label not visible, continuing...');
+}
+
+// Wait for processing message
+await page.getByText('We’re working on Changing the').waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await safeWait(10000);
 
     // ==================================================
     // Changing Location
