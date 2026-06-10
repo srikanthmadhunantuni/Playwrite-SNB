@@ -330,9 +330,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     console.log('Opening Immature Plants Module');
 
     await page.getByRole('button', { name: 'Open Search' }).click({ force: true });
-
+    await safeWait(1000);
     await page.getByRole('searchbox', { name: 'Search' }).fill('Immature Plants');
-    await safeWait(10000);
+    await safeWait(1000);
 
     await page.getByText('Immature Plants', { exact: true }).click({ force: true });
 
@@ -456,15 +456,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
     await page.getByRole('button', { name: 'Additional Options' }).click();
     await page.getByRole('button', { name: 'Change Growth Phase' }).click();
-    await safeWait(10000);
+    await safeWait(1000);
     await page.locator('#changeGrowthPhaseDialog--stickGrowthTag-arrow').click();
-    await safeWait(10000);
+    await safeWait(1000);
     await page.getByRole('option', { name: '1A4FF0200000261000008544' }).click();
-    await safeWait(10000);
+    await safeWait(1000);
     await page.getByRole('combobox', { name: 'Blocks' }).fill('40/40');
-    await safeWait(10000);   
+    await safeWait(1000);   
     await page.getByText('ROCKWOOL BLOCK GR10 4" x 4" x').click();
-    await safeWait(10000);
+    await safeWait(1000);
     await page.getByRole('spinbutton', { name: 'No. of Blocks' }).click();
     await page.getByRole('spinbutton', { name: 'No. of Blocks' }).fill('1');
     await page.getByRole('button', { name: 'Ok' }).click();
