@@ -625,15 +625,18 @@ await safeWait(10000);
     logAction('Edit Harvest Name');
 
     console.log('Edit Harvest Name');
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await page.getByRole('textbox', { name: 'Search' }).click();
-    await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
-    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
-    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    
+    function generateHarvestName() {
+  const digits = Math.floor(1000 + Math.random() * 9000);
+  return `HRST${digits}`;
+}
+
+await page.getByRole('button', { name: 'Edit Harvest Name' }).click();
+await page.getByRole('textbox', { name: 'New Harvest Name' }).click();
+await page.getByRole('textbox', { name: 'New Harvest Name' }).fill(generateHarvestName());
+await page.getByRole('button', { name: 'Update', exact: true }).click();
     await safeWait(10000);
+
+
 
   } finally {
 
