@@ -1,0 +1,467 @@
+PLAYWRIGHT EXECUTION LOG
+STARTED: Wed Jun 10 2026 20:56:39 GMT+0530 (India Standard Time)
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=5932
+
+PAYLOAD:
+command=GetBOList&rep.path=All
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+====================================
+ACTION: SELECT LOCATION
+====================================
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+SELECT LOCATION
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=1045
+
+PAYLOAD:
+command=GetBOList&rep.path=All
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SELECT LOCATION
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+====================================
+ACTION: SELECT LOCATION
+====================================
+
+====================================
+ACTION: SEARCH Cuttings
+====================================
+
+==================================================
+ACTION:
+SEARCH Cuttings
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+====================================
+ACTION: SEARCH Sticking
+====================================
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+PUT
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/item?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006322","Item":"MMT629: Mama's Mai Tai 629 - Clone Sticking"}]
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"PUT","U_NLURL":"/packages/v2/item?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006322\",\"Item\":\"MMT629: Mama's Mai Tai 629 - Clone Sticking\"}]","U_NLGRP":"\"The Item on Package 1A4FF0300000261000006322 cannot be changed because it was created more than 24 hours ago.\\nThe Item on Package 1A4FF0300000261000006322 cannot be changed because it has already been used (adjusted, repackaged, transferred, sold, etc.).\\n\"","U_NLGST":400,"U_NAPP":"CP"}
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SEARCH Sticking
+
+STATUS:
+400
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/item?licenseNumber=C12-1000009-LIC
+
+RESPONSE:
+[{"row":0,"message":"The Item on Package 1A4FF0300000261000006322 cannot be changed because it was created more than 24 hours ago."},{"row":0,"message":"The Item on Package 1A4FF0300000261000006322 cannot be changed because it has already been used (adjusted, repackaged, transferred, sold, etc.)."}]
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T20:59:53.750Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"PUT\\\",\\\"U_NLURL\\\":\\\"/packages/v2/item?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006322\\\\\\\",\\\\\\\"Item\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629 - Clone Sticking\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"The Item on Package 1A4FF0300000261000006322 cannot be changed because it was created more than 24 hours ago.\\\\\\\\nThe Item on Package 1A4FF0300000261000006322 cannot be changed because it has already been used (adjusted, repackaged, transferred, sold, etc.).\\\\\\\\n\\\\\\\"\\\",\\\"U_NLGST\\\":400,\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783669","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606408'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/plantings?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"PackageLabel":"1A4FF0300000261000006317","PackageAdjustmentUnitOfMeasureName":"Each","PlantBatchName":"1A4FF0200000261000008666","PlantBatchType":"Clone","PlantCount":"11","LocationName":"SNB9 - Bay 54","StrainName":"MMT629: Mama's Mai Tai 629","PlantedDate":"2026-06-10","UnpackagedDate":"2026-06-10"}]
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/plantings?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"PackageLabel\":\"1A4FF0300000261000006317\",\"PackageAdjustmentUnitOfMeasureName\":\"Each\",\"PlantBatchName\":\"1A4FF0200000261000008666\",\"PlantBatchType\":\"Clone\",\"PlantCount\":\"11\",\"LocationName\":\"SNB9 - Bay 54\",\"StrainName\":\"MMT629: Mama's Mai Tai 629\",\"PlantedDate\":\"2026-06-10\",\"UnpackagedDate\":\"2026-06-10\"}]","U_NLGRP":"\"Package 1A4FF0300000261000006317 cannot be adjusted below negative quantity threshold.\\n\"","U_NLGST":400,"U_NAPP":"CP"}
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SEARCH Sticking
+
+STATUS:
+400
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/plantings?licenseNumber=C12-1000009-LIC
+
+RESPONSE:
+[{"row":0,"message":"Package 1A4FF0300000261000006317 cannot be adjusted below negative quantity threshold."}]
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:00:36.692Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/plantings?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"PackageLabel\\\\\\\":\\\\\\\"1A4FF0300000261000006317\\\\\\\",\\\\\\\"PackageAdjustmentUnitOfMeasureName\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"PlantBatchName\\\\\\\":\\\\\\\"1A4FF0200000261000008666\\\\\\\",\\\\\\\"PlantBatchType\\\\\\\":\\\\\\\"Clone\\\\\\\",\\\\\\\"PlantCount\\\\\\\":\\\\\\\"11\\\\\\\",\\\\\\\"LocationName\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"StrainName\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629\\\\\\\",\\\\\\\"PlantedDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"UnpackagedDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"Package 1A4FF0300000261000006317 cannot be adjusted below negative quantity threshold.\\\\\\\\n\\\\\\\"\\\",\\\"U_NLGST\\\":400,\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783670","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+====================================
+ACTION: SEARCH Teen
+====================================
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '608612'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Name":"1A4FF0200000261000006687","Count":"96","StartingTag":"1A4FF0200000261000008666","GrowthPhase":"Flowering","NewLocation":"SNB9 - Bay 54","GrowthDate":"2026-06-10"}]
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Name\":\"1A4FF0200000261000006687\",\"Count\":\"96\",\"StartingTag\":\"1A4FF0200000261000008666\",\"GrowthPhase\":\"Flowering\",\"NewLocation\":\"SNB9 - Bay 54\",\"GrowthDate\":\"2026-06-10\"}]","U_NLGRP":"\"Cannot move 96 Plants out of Plant Batch \\\"1A4FF0200000261000006687\\\" when only 0 Plants are available.\\n\"","U_NLGST":400,"U_NAPP":"CP"}
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+SEARCH Teen
+
+STATUS:
+400
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC
+
+RESPONSE:
+[{"row":0,"message":"Cannot move 96 Plants out of Plant Batch \"1A4FF0200000261000006687\" when only 0 Plants are available."}]
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:01:12.457Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Name\\\\\\\":\\\\\\\"1A4FF0200000261000006687\\\\\\\",\\\\\\\"Count\\\\\\\":\\\\\\\"96\\\\\\\",\\\\\\\"StartingTag\\\\\\\":\\\\\\\"1A4FF0200000261000008666\\\\\\\",\\\\\\\"GrowthPhase\\\\\\\":\\\\\\\"Flowering\\\\\\\",\\\\\\\"NewLocation\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"GrowthDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"Cannot move 96 Plants out of Plant Batch \\\\\\\\\\\\\\\"1A4FF0200000261000006687\\\\\\\\\\\\\\\" when only 0 Plants are available.\\\\\\\\n\\\\\\\"\\\",\\\"U_NLGST\\\":400,\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783671","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '608612'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+========================================
+API FILE SAVED: C:\Users\91798\Desktop\Githubtesting\Playwrite-SNB\playwright-logs\motherplanner-2026-06-10T15-26-39-968Z.txt
+========================================
