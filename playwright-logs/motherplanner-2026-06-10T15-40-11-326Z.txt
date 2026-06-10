@@ -1,0 +1,1257 @@
+PLAYWRIGHT EXECUTION LOG
+STARTED: Wed Jun 10 2026 21:10:11 GMT+0530 (India Standard Time)
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=9474
+
+PAYLOAD:
+command=GetBOList&rep.path=All
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7820/ext-motherplanner2-app-content/sapb1motherplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+====================================
+ACTION: SELECT LOCATION
+====================================
+
+====================================
+ACTION: SEARCH TEEN
+====================================
+
+====================================
+ACTION: CREATE PACKAGE
+====================================
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders
+
+PAYLOAD:
+{"ItemNo":"606410","DistributionRule":"NURS","PlannedQuantity":"111.00","ProductionOrderType":"bopotSpecial","PostingDate":"2026-06-10","DueDate":"2026-06-10","Warehouse":"SNB9","Remarks":"Mother Plants - Create Package","ProductionOrderLines":[{"ItemNo":"L01","ItemType":"pit_Resource","PlannedQuantity":"111.00","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"}]}
+==================================================
+
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/ProductionOrders(288679)
+
+{"ProductionOrderStatus":"boposReleased"}
+
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/InventoryGenEntries
+
+{"BPL_IDAssignedToInvoice":"25","Comments":"Mother Plants - Create Package","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288679,"Quantity":"111.00","CostingCode":"NURS","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006328","Quantity":"111.00","Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000008536","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"YES","U_Phase":"Mother"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"111.00","SerialAndBatchNumbersBaseLine":0}]}]}
+
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/ProductionOrders(288679)
+
+{"ProductionOrderStatus":"boposClosed"}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:11:49.451Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/ProductionOrders","U_NLGBD":"\"{\\\"ItemNo\\\":\\\"606410\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":\\\"111.00\\\",\\\"ProductionOrderType\\\":\\\"bopotSpecial\\\",\\\"PostingDate\\\":\\\"2026-06-10\\\",\\\"DueDate\\\":\\\"2026-06-10\\\",\\\"Warehouse\\\":\\\"SNB9\\\",\\\"Remarks\\\":\\\"Mother Plants - Create Package\\\",\\\"ProductionOrderLines\\\":[{\\\"ItemNo\\\":\\\"L01\\\",\\\"ItemType\\\":\\\"pit_Resource\\\",\\\"PlannedQuantity\\\":\\\"111.00\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"}]}\"","U_NLGST":200,"U_NAPP":"MOP"}
+==================================================
+
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:11:51.980Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/ProductionOrders(288679)\\r\\n\\r\\n{\\\"ProductionOrderStatus\\\":\\\"boposReleased\\\"}\\r\\n\\r\\n--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/InventoryGenEntries\\r\\n\\r\\n{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Mother Plants - Create Package\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288679,\\\"Quantity\\\":\\\"111.00\\\",\\\"CostingCode\\\":\\\"NURS\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006328\\\",\\\"Quantity\\\":\\\"111.00\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000008536\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"YES\\\",\\\"U_Phase\\\":\\\"Mother\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"111.00\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\\r\\n\\r\\n--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/ProductionOrders(288679)\\r\\n\\r\\n{\\\"ProductionOrderStatus\\\":\\\"boposClosed\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"MOP"}
+==================================================
+
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/packages/frommotherplant?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"PlantBatch":"1A4FF0200000261000008536","Count":111,"Location":"SNB9 - Bay 54","Item":"MMT629: Mama's Mai Tai 629 - Clone Cuttings","Tag":"1A4FF0300000261000006328","Note":"","ActualDate":"2026-06-10"}]
+==================================================
+
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:11:59.423Z","U_NLGMT":"POST","U_NLURL":"/plantbatches/v2/packages/frommotherplant?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"PlantBatch\":\"1A4FF0200000261000008536\",\"Count\":111,\"Location\":\"SNB9 - Bay 54\",\"Item\":\"MMT629: Mama's Mai Tai 629 - Clone Cuttings\",\"Tag\":\"1A4FF0300000261000006328\",\"Note\":\"\",\"ActualDate\":\"2026-06-10\"}]","U_NLGRP":"{\"Ids\":[862101],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"MOP"}
+==================================================
+
+
+==================================================
+ACTION:
+CREATE PACKAGE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:11:59.760Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10T21:11:59.423Z\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/plantbatches/v2/packages/frommotherplant?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"PlantBatch\\\\\\\":\\\\\\\"1A4FF0200000261000008536\\\\\\\",\\\\\\\"Count\\\\\\\":111,\\\\\\\"Location\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"Item\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629 - Clone Cuttings\\\\\\\",\\\\\\\"Tag\\\\\\\":\\\\\\\"1A4FF0300000261000006328\\\\\\\",\\\\\\\"Note\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"ActualDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[862101],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"MOP\\\"}\"","U_NLGRP":"783672","U_NLGST":200,"U_NAPP":"MOP"}
+==================================================
+
+
+====================================
+ACTION: OPEN PACKAGES
+====================================
+
+====================================
+ACTION: SELECT PACKAGE LOCATION
+====================================
+
+====================================
+ACTION: MARK AS IMMATURE
+====================================
+
+==================================================
+ACTION:
+MARK AS IMMATURE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/BatchNumberDetails(4912402)
+
+{"U_Phase":"Immature","U_IsPackage":"NO"}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+MARK AS IMMATURE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:13:04.229Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/BatchNumberDetails(4912402)\\r\\n\\r\\n{\\\"U_Phase\\\":\\\"Immature\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"MOP"}
+==================================================
+
+
+==================================================
+ACTION:
+MARK AS IMMATURE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/anly/api/Init/v1/TenantInit
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+MARK AS IMMATURE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/tcli/api/metadata/load
+
+PAYLOAD:
+{}
+==================================================
+
+
+==================================================
+ACTION:
+MARK AS IMMATURE
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1ah/es?login.language=EN&jsr=2806
+
+PAYLOAD:
+command=GetBOList&rep.path=All
+==================================================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+MARK AS IMMATURE
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+FAILED API
+
+ACTION:
+MARK AS IMMATURE
+
+STATUS:
+404
+
+URL:
+https://ghdev.seedandbeyond.com:223/extn/ui-static/7884/ext-clone-planner2-app-content/sapb1cloneplanner/i18n/i18n_en.properties
+
+RESPONSE:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+====================================
+ACTION: SELECT LOCATION
+====================================
+
+====================================
+ACTION: SEARCH Cuttings
+====================================
+
+==================================================
+ACTION:
+SEARCH Cuttings
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606410'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+====================================
+ACTION: SEARCH Sticking
+====================================
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+PUT
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/item?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Label":"1A4FF0300000261000006328","Item":"MMT629: Mama's Mai Tai 629 - Clone Sticking"}]
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"PUT","U_NLURL":"/packages/v2/item?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Label\":\"1A4FF0300000261000006328\",\"Item\":\"MMT629: Mama's Mai Tai 629 - Clone Sticking\"}]","U_NLGRP":"\"\"","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders
+
+PAYLOAD:
+{"ItemNo":"606408","DistributionRule":"NURS","PlannedQuantity":"111","ProductionOrderType":"bopotSpecial","PostingDate":"2026-06-10","DueDate":"2026-06-10","Warehouse":"SNB9","Remarks":"Immature Plants - Change Growth Phase","ProductionOrderLines":[{"ItemNo":"L02","ItemType":"pit_Resource","PlannedQuantity":"111","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"},{"ItemNo":"606410","DistributionRule":"NURS","PlannedQuantity":111,"ProductionOrderIssueType":"im_Manual","Warehouse":"SNB9"},{"ItemNo":"810334","PlannedQuantity":"1","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:14:29.836Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"PUT\\\",\\\"U_NLURL\\\":\\\"/packages/v2/item?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Label\\\\\\\":\\\\\\\"1A4FF0300000261000006328\\\\\\\",\\\\\\\"Item\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629 - Clone Sticking\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"\\\\\\\"\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783673","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+PATCH
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288681)
+
+PAYLOAD:
+{"ProductionOrderStatus":"boposReleased"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:14:30.222Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/ProductionOrders","U_NLGBD":"\"{\\\"ItemNo\\\":\\\"606408\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":\\\"111\\\",\\\"ProductionOrderType\\\":\\\"bopotSpecial\\\",\\\"PostingDate\\\":\\\"2026-06-10\\\",\\\"DueDate\\\":\\\"2026-06-10\\\",\\\"Warehouse\\\":\\\"SNB9\\\",\\\"Remarks\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"ProductionOrderLines\\\":[{\\\"ItemNo\\\":\\\"L02\\\",\\\"ItemType\\\":\\\"pit_Resource\\\",\\\"PlannedQuantity\\\":\\\"111\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"606410\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":111,\\\"ProductionOrderIssueType\\\":\\\"im_Manual\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"810334\\\",\\\"PlannedQuantity\\\":\\\"1\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"}]}\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:14:30.948Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288681)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposReleased\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288681,"Quantity":"111","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006328","Quantity":"111","Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000008536","U_Phase":"Immature","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"111","SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:14:33.306Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288681,\\\"Quantity\\\":\\\"111\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006328\\\",\\\"Quantity\\\":\\\"111\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000008536\\\",\\\"U_Phase\\\":\\\"Immature\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"111\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459771","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenExits
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288681,"BaseLine":1,"Quantity":111,"BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006328","Quantity":111,"Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000008536","ManufacturerSerialNumber":"HTVST-010102026"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":111,"SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:14:39.812Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenExits","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288681,\\\"BaseLine\\\":1,\\\"Quantity\\\":111,\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006328\\\",\\\"Quantity\\\":111,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000008536\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":111,\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"614940","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+PATCH
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288681)
+
+PAYLOAD:
+{"ProductionOrderStatus":"boposClosed"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:14:43.686Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288681)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposClosed\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606408'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/packages/v2/plantings?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"PackageLabel":"1A4FF0300000261000006328","PackageAdjustmentUnitOfMeasureName":"Each","PlantBatchName":"1A4FF0200000261000008666","PlantBatchType":"Clone","PlantCount":"96","LocationName":"SNB9 - Bay 54","StrainName":"MMT629: Mama's Mai Tai 629","PlantedDate":"2026-06-10","UnpackagedDate":"2026-06-10"}]
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/packages/v2/plantings?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"PackageLabel\":\"1A4FF0300000261000006328\",\"PackageAdjustmentUnitOfMeasureName\":\"Each\",\"PlantBatchName\":\"1A4FF0200000261000008666\",\"PlantBatchType\":\"Clone\",\"PlantCount\":\"96\",\"LocationName\":\"SNB9 - Bay 54\",\"StrainName\":\"MMT629: Mama's Mai Tai 629\",\"PlantedDate\":\"2026-06-10\",\"UnpackagedDate\":\"2026-06-10\"}]","U_NLGRP":"{\"Ids\":[473101],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders
+
+PAYLOAD:
+{"ItemNo":"606409","DistributionRule":"NURS","PlannedQuantity":"96","ProductionOrderType":"bopotSpecial","PostingDate":"2026-06-10","DueDate":"2026-06-10","Warehouse":"SNB9","Remarks":"Immature Plants - Change Growth Phase","ProductionOrderLines":[{"ItemNo":"L03","ItemType":"pit_Resource","PlannedQuantity":"96","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"},{"ItemNo":"606408","DistributionRule":"NURS","PlannedQuantity":"96","ProductionOrderIssueType":"im_Manual","Warehouse":"SNB9"},{"ItemNo":"810174","PlannedQuantity":"1","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:15:21.433Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/packages/v2/plantings?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"PackageLabel\\\\\\\":\\\\\\\"1A4FF0300000261000006328\\\\\\\",\\\\\\\"PackageAdjustmentUnitOfMeasureName\\\\\\\":\\\\\\\"Each\\\\\\\",\\\\\\\"PlantBatchName\\\\\\\":\\\\\\\"1A4FF0200000261000008666\\\\\\\",\\\\\\\"PlantBatchType\\\\\\\":\\\\\\\"Clone\\\\\\\",\\\\\\\"PlantCount\\\\\\\":\\\\\\\"96\\\\\\\",\\\\\\\"LocationName\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"StrainName\\\\\\\":\\\\\\\"MMT629: Mama's Mai Tai 629\\\\\\\",\\\\\\\"PlantedDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\",\\\\\\\"UnpackagedDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[473101],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783674","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+PATCH
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288682)
+
+PAYLOAD:
+{"ProductionOrderStatus":"boposReleased"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:15:21.735Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/ProductionOrders","U_NLGBD":"\"{\\\"ItemNo\\\":\\\"606409\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":\\\"96\\\",\\\"ProductionOrderType\\\":\\\"bopotSpecial\\\",\\\"PostingDate\\\":\\\"2026-06-10\\\",\\\"DueDate\\\":\\\"2026-06-10\\\",\\\"Warehouse\\\":\\\"SNB9\\\",\\\"Remarks\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"ProductionOrderLines\\\":[{\\\"ItemNo\\\":\\\"L03\\\",\\\"ItemType\\\":\\\"pit_Resource\\\",\\\"PlannedQuantity\\\":\\\"96\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"606408\\\",\\\"DistributionRule\\\":\\\"NURS\\\",\\\"PlannedQuantity\\\":\\\"96\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Manual\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"810174\\\",\\\"PlannedQuantity\\\":\\\"1\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"}]}\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:15:22.306Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288682)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposReleased\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288682,"Quantity":"96","BatchNumbers":[{"BatchNumber":"1A4FF0200000261000008666","Quantity":"96","Location":"SNB9.B54","U_BatAttr3":"1A4FF0300000261000006328","U_Phase":"Immature","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"96","SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:15:24.303Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288682,\\\"Quantity\\\":\\\"96\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008666\\\",\\\"Quantity\\\":\\\"96\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"U_Phase\\\":\\\"Immature\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"96\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"459773","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Sticking
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenExits
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288682,"BaseLine":1,"Quantity":"96","BatchNumbers":[{"BatchNumber":"1A4FF0300000261000006328","Quantity":"96","Location":"SNB9.B54","U_BatAttr3":"1A4FF0200000261000008536","ManufacturerSerialNumber":"HTVST-010102026"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"96","SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+====================================
+ACTION: SEARCH Teen
+====================================
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:15:30.934Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenExits","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288682,\\\"BaseLine\\\":1,\\\"Quantity\\\":\\\"96\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0300000261000006328\\\",\\\"Quantity\\\":\\\"96\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0200000261000008536\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"96\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"614944","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+PATCH
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288682)
+
+PAYLOAD:
+{"ProductionOrderStatus":"boposClosed"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:15:37.419Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288682)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposClosed\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606409'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Name":"1A4FF0200000261000008666","Count":"96","StartingTag":"1A4FF0200000261000008667","GrowthPhase":"Flowering","NewLocation":"SNB9 - Bay 54","GrowthDate":"2026-06-10"}]
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"POST","U_NLURL":"/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Name\":\"1A4FF0200000261000008666\",\"Count\":\"96\",\"StartingTag\":\"1A4FF0200000261000008667\",\"GrowthPhase\":\"Flowering\",\"NewLocation\":\"SNB9 - Bay 54\",\"GrowthDate\":\"2026-06-10\"}]","U_NLGRP":"{\"Ids\":[1666212,1666213,1666214,1666215,1666216,1666217,1666218,1666219,1666220,1666221,1666222,1666223,1666224,1666225,1666226,1666227,1666228,1666229,1666230,1666231,1666232,1666233,1666234,1666235,1666236,1666237,1666238,1666239,1666240,1666241,1666242,1666243,1666244,1666245,1666246,1666247,1666248,1666249,1666250,1666251,1666252,1666253,1666254,1666255,1666256,1666257,1666258,1666259,1666260,1666261,1666262,1666263,1666264,1666265,1666266,1666267,1666268,1666269,1666270,1666271,1666272,1666273,1666274,1666275,1666276,1666277,1666278,1666279,1666280,1666281,1666282,1666283,1666284,1666285,1666286,1666287,1666288,1666289,1666290,1666291,1666292,1666293,1666294,1666295,1666296,1666297,1666298,1666299,1666300,1666501,1666502,1666503,1666504,1666505,1666506,1666507],\"Warnings\":null}","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders
+
+PAYLOAD:
+{"ItemNo":"606411","DistributionRule":"CULT","PlannedQuantity":"96","ProductionOrderType":"bopotSpecial","PostingDate":"2026-06-10","DueDate":"2026-06-10","Warehouse":"SNB9","Remarks":"Immature Plants - Change Growth Phase","ProductionOrderLines":[{"ItemNo":"L04","ItemType":"pit_Resource","PlannedQuantity":"96","ProductionOrderIssueType":"im_Backflush","Warehouse":"SNB9"},{"ItemNo":"606409","DistributionRule":"CULT","PlannedQuantity":"96","ProductionOrderIssueType":"im_Manual","Warehouse":"SNB9"}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:20.392Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"POST\\\",\\\"U_NLURL\\\":\\\"/plantbatches/v2/growthphase?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Name\\\\\\\":\\\\\\\"1A4FF0200000261000008666\\\\\\\",\\\\\\\"Count\\\\\\\":\\\\\\\"96\\\\\\\",\\\\\\\"StartingTag\\\\\\\":\\\\\\\"1A4FF0200000261000008667\\\\\\\",\\\\\\\"GrowthPhase\\\\\\\":\\\\\\\"Flowering\\\\\\\",\\\\\\\"NewLocation\\\\\\\":\\\\\\\"SNB9 - Bay 54\\\\\\\",\\\\\\\"GrowthDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"{\\\\\\\"Ids\\\\\\\":[1666212,1666213,1666214,1666215,1666216,1666217,1666218,1666219,1666220,1666221,1666222,1666223,1666224,1666225,1666226,1666227,1666228,1666229,1666230,1666231,1666232,1666233,1666234,1666235,1666236,1666237,1666238,1666239,1666240,1666241,1666242,1666243,1666244,1666245,1666246,1666247,1666248,1666249,1666250,1666251,1666252,1666253,1666254,1666255,1666256,1666257,1666258,1666259,1666260,1666261,1666262,1666263,1666264,1666265,1666266,1666267,1666268,1666269,1666270,1666271,1666272,1666273,1666274,1666275,1666276,1666277,1666278,1666279,1666280,1666281,1666282,1666283,1666284,1666285,1666286,1666287,1666288,1666289,1666290,1666291,1666292,1666293,1666294,1666295,1666296,1666297,1666298,1666299,1666300,1666501,1666502,1666503,1666504,1666505,1666506,1666507],\\\\\\\"Warnings\\\\\\\":null}\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783675","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+PATCH
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288684)
+
+PAYLOAD:
+{"ProductionOrderStatus":"boposReleased"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:20.664Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/ProductionOrders","U_NLGBD":"\"{\\\"ItemNo\\\":\\\"606411\\\",\\\"DistributionRule\\\":\\\"CULT\\\",\\\"PlannedQuantity\\\":\\\"96\\\",\\\"ProductionOrderType\\\":\\\"bopotSpecial\\\",\\\"PostingDate\\\":\\\"2026-06-10\\\",\\\"DueDate\\\":\\\"2026-06-10\\\",\\\"Warehouse\\\":\\\"SNB9\\\",\\\"Remarks\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"ProductionOrderLines\\\":[{\\\"ItemNo\\\":\\\"L04\\\",\\\"ItemType\\\":\\\"pit_Resource\\\",\\\"PlannedQuantity\\\":\\\"96\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Backflush\\\",\\\"Warehouse\\\":\\\"SNB9\\\"},{\\\"ItemNo\\\":\\\"606409\\\",\\\"DistributionRule\\\":\\\"CULT\\\",\\\"PlannedQuantity\\\":\\\"96\\\",\\\"ProductionOrderIssueType\\\":\\\"im_Manual\\\",\\\"Warehouse\\\":\\\"SNB9\\\"}]}\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:23.956Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288684)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposReleased\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenEntries
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288684,"Quantity":"96","BatchNumbers":[{"BatchNumber":"1A4FF0200000261000008667","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008668","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008669","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008670","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008671","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008672","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008673","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008674","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008675","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008676","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008677","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008678","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008679","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008680","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008681","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008682","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008683","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008684","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008685","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008686","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008687","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008688","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008689","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008690","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008691","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008692","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008693","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008694","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008695","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008696","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008697","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008698","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008699","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008700","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008701","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008702","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008703","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008704","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008705","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008706","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008707","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008708","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008709","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008710","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008711","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008712","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008713","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008714","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008715","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008716","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008717","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008718","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008719","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008720","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008721","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008722","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008723","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008724","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008725","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008726","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008727","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008728","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008729","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008730","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008731","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008732","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008733","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008734","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008735","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008736","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008737","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008738","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008739","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008740","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008741","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008742","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008743","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008744","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008745","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008746","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008747","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008748","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008749","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008750","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008751","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008752","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008753","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008754","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008755","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008756","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008757","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008758","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008759","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008760","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008761","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"},{"BatchNumber":"1A4FF0200000261000008762","Quantity":1,"Location":"SNB9.B54","U_Phase":"Flower","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026","U_LotNumber":"lot","U_IsPackage":"NO"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":0},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":1},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":2},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":3},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":4},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":5},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":6},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":7},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":8},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":9},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":10},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":11},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":12},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":13},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":14},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":15},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":16},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":17},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":18},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":19},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":20},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":21},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":22},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":23},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":24},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":25},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":26},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":27},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":28},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":29},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":30},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":31},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":32},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":33},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":34},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":35},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":36},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":37},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":38},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":39},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":40},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":41},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":42},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":43},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":44},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":45},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":46},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":47},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":48},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":49},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":50},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":51},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":52},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":53},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":54},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":55},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":56},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":57},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":58},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":59},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":60},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":61},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":62},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":63},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":64},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":65},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":66},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":67},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":68},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":69},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":70},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":71},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":72},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":73},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":74},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":75},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":76},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":77},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":78},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":79},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":80},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":81},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":82},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":83},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":84},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":85},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":86},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":87},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":88},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":89},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":90},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":91},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":92},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":93},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":94},{"BinAbsEntry":479,"Quantity":1,"SerialAndBatchNumbersBaseLine":95}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+SEARCH Teen
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:28.369Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenEntries","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288684,\\\"Quantity\\\":\\\"96\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008667\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008668\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008669\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008670\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008671\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008672\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008673\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008674\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008675\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008676\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008677\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008678\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008679\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008680\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008681\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008682\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008683\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008684\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008685\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008686\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008687\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008688\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008689\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008690\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008691\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008692\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008693\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008694\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008695\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008696\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008697\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008698\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008699\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008700\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008701\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008702\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008703\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008704\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008705\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008706\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008707\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008708\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008709\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008710\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008711\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008712\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008713\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008714\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008715\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008716\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008717\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008718\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008719\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008720\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008721\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008722\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008723\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008724\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008725\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008726\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008727\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008728\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008729\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008730\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008731\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008732\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008733\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008734\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008735\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008736\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008737\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008738\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008739\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008740\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008741\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008742\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008743\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008744\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008745\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008746\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008747\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008748\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008749\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008750\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008751\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008752\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008753\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008754\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008755\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008756\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008757\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008758\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008759\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008760\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008761\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"},{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008762\\\",\\\"Quantity\\\":1,\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_Phase\\\":\\\"Flower\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\",\\\"U_LotNumber\\\":\\\"lot\\\",\\\"U_IsPackage\\\":\\\"NO\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":0},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":1},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":2},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":3},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":4},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":5},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":6},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":7},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":8},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":9},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":10},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":11},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":12},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":13},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":14},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":15},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":16},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":17},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":18},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":19},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":20},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":21},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":22},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":23},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":24},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":25},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":26},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":27},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":28},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":29},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":30},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":31},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":32},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":33},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":34},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":35},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":36},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":37},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":38},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":39},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":40},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":41},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":42},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":43},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":44},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":45},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":46},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":47},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":48},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":49},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":50},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":51},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":52},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":53},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":54},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":55},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":56},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":57},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":58},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":59},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":60},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":61},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":62},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":63},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":64},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":65},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":66},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":67},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":68},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":69},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":70},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":71},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":72},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":73},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":74},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":75},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":76},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":77},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":78},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":79},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":80},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":81},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":82},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":83},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":84},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":85},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":86},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":87},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":88},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":89},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":90},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":91},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":92},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":93},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":94},{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":1,\\\"SerialAndBatchNumbersBaseLine\\\":95}]}]}\"","U_NLGRP":"459775","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+====================================
+ACTION: Changing Location
+====================================
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/InventoryGenExits
+
+PAYLOAD:
+{"BPL_IDAssignedToInvoice":"25","Comments":"Immature Plants - Change Growth Phase","DocumentLines":[{"WarehouseCode":"SNB9","BaseType":202,"BaseEntry":288684,"BaseLine":1,"Quantity":"96","BatchNumbers":[{"BatchNumber":"1A4FF0200000261000008666","Quantity":"96","Location":"SNB9.B54","U_BatAttr3":"1A4FF0300000261000006328","ManufacturerSerialNumber":"HTVST-010102026"}],"DocumentLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":"96","SerialAndBatchNumbersBaseLine":0}]}]}
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:34.370Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/InventoryGenExits","U_NLGBD":"\"{\\\"BPL_IDAssignedToInvoice\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Growth Phase\\\",\\\"DocumentLines\\\":[{\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"BaseType\\\":202,\\\"BaseEntry\\\":288684,\\\"BaseLine\\\":1,\\\"Quantity\\\":\\\"96\\\",\\\"BatchNumbers\\\":[{\\\"BatchNumber\\\":\\\"1A4FF0200000261000008666\\\",\\\"Quantity\\\":\\\"96\\\",\\\"Location\\\":\\\"SNB9.B54\\\",\\\"U_BatAttr3\\\":\\\"1A4FF0300000261000006328\\\",\\\"ManufacturerSerialNumber\\\":\\\"HTVST-010102026\\\"}],\\\"DocumentLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":\\\"96\\\",\\\"SerialAndBatchNumbersBaseLine\\\":0}]}]}\"","U_NLGRP":"614947","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+PATCH
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/ProductionOrders(288684)
+
+PAYLOAD:
+{"ProductionOrderStatus":"boposClosed"}
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:34.976Z","U_NLGMT":"PATCH","U_NLURL":"/b1s/v2/ProductionOrders(288684)","U_NLGBD":"\"{\\\"ProductionOrderStatus\\\":\\\"boposClosed\\\"}\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '608612'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+PUT
+
+URL:
+https://sandbox-api-ca.metrc.com/plantbatches/v2/location?licenseNumber=C12-1000009-LIC
+
+PAYLOAD:
+[{"Name":"1A4FF0200000261000006687","Location":"SNB9 - Bay 55","MoveDate":"2026-06-10"}]
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NMTLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10","U_NLGMT":"PUT","U_NLURL":"/plantbatches/v2/location?licenseNumber=C12-1000009-LIC","U_NLGBD":"[{\"Name\":\"1A4FF0200000261000006687\",\"Location\":\"SNB9 - Bay 55\",\"MoveDate\":\"2026-06-10\"}]","U_NLGRP":"\"\"","U_NLGST":"200","U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+POST /b1s/v2/StockTransfers
+
+{"FromWarehouse":"SNB9","ToWarehouse":"SNB9","BPLID":"25","Comments":"Immature Plants - Change Location","StockTransferLines":[{"LineNum":0,"ItemCode":"608612","Quantity":96,"WarehouseCode":"SNB9","FromWarehouseCode":"SNB9","BatchNumbers":[{"Quantity":96,"BatchNumber":"1A4FF0200000261000006687","Location":"SNB9.B55"}],"StockTransferLinesBinAllocations":[{"BinAbsEntry":479,"Quantity":96,"SerialAndBatchNumbersBaseLine":0,"BinActionType":"batFromWarehouse","BaseLineNumber":0},{"BinAbsEntry":480,"Quantity":96,"SerialAndBatchNumbersBaseLine":0,"BinActionType":"batToWarehouse","BaseLineNumber":0}]}]}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:42.335Z","U_NLGMT":"POST","U_NLURL":"/b1s/v2/NMTLG","U_NLGBD":"\"{\\\"U_NDTTM\\\":\\\"2026-06-10\\\",\\\"U_NLGMT\\\":\\\"PUT\\\",\\\"U_NLURL\\\":\\\"/plantbatches/v2/location?licenseNumber=C12-1000009-LIC\\\",\\\"U_NLGBD\\\":\\\"[{\\\\\\\"Name\\\\\\\":\\\\\\\"1A4FF0200000261000006687\\\\\\\",\\\\\\\"Location\\\\\\\":\\\\\\\"SNB9 - Bay 55\\\\\\\",\\\\\\\"MoveDate\\\\\\\":\\\\\\\"2026-06-10\\\\\\\"}]\\\",\\\"U_NLGRP\\\":\\\"\\\\\\\"\\\\\\\"\\\",\\\"U_NLGST\\\":\\\"200\\\",\\\"U_NAPP\\\":\\\"CP\\\"}\"","U_NLGRP":"783676","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+Changing Location
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:43.026Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPOST /b1s/v2/StockTransfers\\r\\n\\r\\n{\\\"FromWarehouse\\\":\\\"SNB9\\\",\\\"ToWarehouse\\\":\\\"SNB9\\\",\\\"BPLID\\\":\\\"25\\\",\\\"Comments\\\":\\\"Immature Plants - Change Location\\\",\\\"StockTransferLines\\\":[{\\\"LineNum\\\":0,\\\"ItemCode\\\":\\\"608612\\\",\\\"Quantity\\\":96,\\\"WarehouseCode\\\":\\\"SNB9\\\",\\\"FromWarehouseCode\\\":\\\"SNB9\\\",\\\"BatchNumbers\\\":[{\\\"Quantity\\\":96,\\\"BatchNumber\\\":\\\"1A4FF0200000261000006687\\\",\\\"Location\\\":\\\"SNB9.B55\\\"}],\\\"StockTransferLinesBinAllocations\\\":[{\\\"BinAbsEntry\\\":479,\\\"Quantity\\\":96,\\\"SerialAndBatchNumbersBaseLine\\\":0,\\\"BinActionType\\\":\\\"batFromWarehouse\\\",\\\"BaseLineNumber\\\":0},{\\\"BinAbsEntry\\\":480,\\\"Quantity\\\":96,\\\"SerialAndBatchNumbersBaseLine\\\":0,\\\"BinActionType\\\":\\\"batToWarehouse\\\",\\\"BaseLineNumber\\\":0}]}]}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+====================================
+ACTION: Edit Harvest Name
+====================================
+
+==================================================
+ACTION:
+Edit Harvest Name
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/BatchNumberDetails(4907658)
+
+{"BatchAttribute1":"HRST2060"}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+Edit Harvest Name
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:16:52.076Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/BatchNumberDetails(4907658)\\r\\n\\r\\n{\\\"BatchAttribute1\\\":\\\"HRST2060\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+====================================
+ACTION: Edit Lot Number
+====================================
+
+====================================
+ACTION: Split Batch
+====================================
+
+==================================================
+ACTION:
+Split Batch
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+PATCH /b1s/v2/BatchNumberDetails(4907658)
+
+{"U_LotNumber":"Lot5565"}
+
+
+--clone_batch--
+==================================================
+
+
+==================================================
+ACTION:
+Split Batch
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/NBNLG
+
+PAYLOAD:
+{"U_NDTTM":"2026-06-10T21:17:03.417Z","U_NLGMT":"POST","U_NLURL":"Batch calls","U_NLGBD":"\"--clone_batch--\\r\\nContent-Type: application/http \\r\\nContent-Transfer-Encoding:binary\\r\\n\\r\\nPATCH /b1s/v2/BatchNumberDetails(4907658)\\r\\n\\r\\n{\\\"U_LotNumber\\\":\\\"Lot5565\\\"}\\r\\n\\r\\n\\r\\n--clone_batch--\"","U_NLGRP":"\"\"","U_NLGST":200,"U_NAPP":"CP"}
+==================================================
+
+
+==================================================
+ACTION:
+Split Batch
+
+METHOD:
+POST
+
+URL:
+https://ghdev.seedandbeyond.com:223/b1s/v2/$batch
+
+PAYLOAD:
+--clone_batch--
+Content-Type: application/http 
+Content-Transfer-Encoding:binary
+
+GET /b1s/v2/Items?$filter=ItemCode eq '606408'&$select=ItemName,ItemsGroupCode,ItemCode,U_MCAT,ProdStdCost,U_NSTNM,InventoryUOM,DefaultSalesUoMEntry
+
+undefined
+
+
+--clone_batch--
+==================================================
+
+
+========================================
+API FILE SAVED: C:\Users\91798\Desktop\Githubtesting\Playwrite-SNB\playwright-logs\motherplanner-2026-06-10T15-40-11-326Z.txt
+========================================
