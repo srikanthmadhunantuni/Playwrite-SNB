@@ -690,7 +690,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     await page.getByRole('button', { name: 'Ok' }).click();
 
     // Wait for processing message
-    await page.getByText('We're working on Changing the').waitFor({
+    await page.getByText(`We\u2019re working on Changing the`).waitFor({
       state: 'visible',
       timeout: 30000,
     });
@@ -741,7 +741,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     }
 
     // Wait for processing message
-    await page.getByText('We're working on Changing the').waitFor({
+    await page.getByText(`We\u2019re working on Changing the`).waitFor({
       state: 'visible',
       timeout: 30000,
     });
@@ -964,7 +964,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
       );
     } catch (e) {}
 
-    await page.getByText('We're working on Adjust.').waitFor({
+    await page.getByText(`We\u2019re working on Adjust.`).waitFor({
       state: 'visible',
       timeout: 30000,
     });
