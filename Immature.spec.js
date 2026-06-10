@@ -443,34 +443,84 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     // ==================================================
     // SEARCH Stickings
     // ==================================================
-    logAction('SEARCH Sticking');
+logAction('SEARCH Sticking');
+console.log('Searching Sticking');
 
-    console.log('Searching Sticking');
+await page.getByRole('button', { name: 'Clear All Filters' }).click();
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await page.getByRole('textbox', { name: 'Search' }).click();
-    await page.getByRole('textbox', { name: 'Search' }).fill('sticking');
-    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
-    await page.getByText('Sort Descending').click();
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    await page.getByRole('button', { name: 'Additional Options' }).click();
-    await page.getByRole('button', { name: 'Change Growth Phase' }).click();
-    await safeWait(1000);
-    await page.locator('#changeGrowthPhaseDialog--stickGrowthTag-arrow').click();
-    await safeWait(1000);
-    await page.getByRole('option', { name: '1A4FF0200000261000008544' }).click();
-    await safeWait(1000);
-    await page.getByRole('combobox', { name: 'Blocks' }).fill('40/40');
-    await safeWait(1000);   
-    await page.getByText('ROCKWOOL BLOCK GR10 4" x 4" x').click();
-    await safeWait(1000);
-    await page.getByRole('spinbutton', { name: 'No. of Blocks' }).click();
-    await page.getByRole('spinbutton', { name: 'No. of Blocks' }).fill('1');
-    await page.getByRole('button', { name: 'Ok' }).click();
-    await page.getByText('We’re working on Changing the').click();
-    await safeWait(10000);
+await page.getByRole('textbox', { name: 'Search' }).click();
+await page.getByRole('textbox', { name: 'Search' }).fill('sticking');
+await page.getByRole('textbox', { name: 'Search' }).press('Enter');
 
+await safeWait(2000);
+
+await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+await page.getByText('Sort Descending').click();
+
+await safeWait(2000);
+
+await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+
+await page.getByRole('button', { name: 'Additional Options' }).click();
+await page.getByRole('button', { name: 'Change Growth Phase' }).click();
+
+await safeWait(2000);
+
+// Open Stick Growth Tag dropdown
+const growthTagValue = '1A4FF0200000261000008544';
+
+const growthTagArrow = page.locator('#changeGrowthPhaseDialog--stickGrowthTag-arrow');
+await growthTagArrow.waitFor({ state: 'visible', timeout: 30000 });
+await growthTagArrow.click();
+
+await safeWait(1000);
+
+// Select Growth Tag safely
+try {
+  const option = page.getByRole('option', { name: growthTagValue }).first();
+  await option.waitFor({ state: 'visible', timeout: 15000 });
+  await option.click();
+} catch (error) {
+  console.log('Dropdown option not visible, using keyboard fallback');
+
+  await page.keyboard.type(growthTagValue);
+  await safeWait(1000);
+  await page.keyboard.press('Enter');
+}
+
+await safeWait(1000);
+
+// Blocks
+const blocksCombo = page.getByRole('combobox', { name: 'Blocks' });
+await blocksCombo.waitFor({ state: 'visible', timeout: 30000 });
+await blocksCombo.click();
+await blocksCombo.fill('40/40');
+
+await safeWait(1000);
+
+// Select ROCKWOOL BLOCK option
+await page.getByText('ROCKWOOL BLOCK GR10 4" x 4" x').click();
+
+await safeWait(1000);
+
+// No. of Blocks
+const noOfBlocks = page.getByRole('spinbutton', { name: 'No. of Blocks' });
+await noOfBlocks.waitFor({ state: 'visible', timeout: 30000 });
+await noOfBlocks.click();
+await noOfBlocks.fill('1');
+
+await safeWait(1000);
+
+// Click OK
+await page.getByRole('button', { name: 'Ok' }).click();
+
+// Wait for processing message
+await page.getByText('We’re working on Changing the').waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await safeWait(10000);
      
     // ==================================================
     // SEARCH Teen
