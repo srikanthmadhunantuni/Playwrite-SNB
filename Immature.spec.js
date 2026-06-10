@@ -331,9 +331,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
     await page.getByRole('button', { name: 'Open Search' }).click({ force: true });
 
-    await page.getByRole('searchbox', { name: 'Search' }).fill('mother plants');
+    await page.getByRole('searchbox', { name: 'Search' }).fill('Immature Plants');
+    await safeWait(10000);
 
-    await page.getByText('Mother Plants', { exact: true }).click({ force: true });
+    await page.getByText('Immature Plants', { exact: true }).click({ force: true });
 
     await safeWait(10000);
 
@@ -368,140 +369,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
     console.log('Location Selected Successfully');
 
-    // ==================================================
-    // SEARCH TEEN
-    // ==================================================
 
-    logAction('SEARCH TEEN');
 
-    console.log('Searching Teen Plants');
+    //await safeWait(6000);
 
-    await page.getByRole('textbox', { name: 'Search' }).fill('teen');
-    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+    //console.log('Marked As Immature');
 
-    console.log('Teen Search Completed');
-
-    // ==================================================
-    // CREATE PACKAGE
-    // ==================================================
-
-    logAction('CREATE PACKAGE');
-
-    console.log('Selecting Mother Plant Row');
-
-    await safeWait(5000);
-
-    await page.locator('[id="__xmlview1--motherplannerTable-rowsel0"]').click();
-
-    console.log('Opening Create Package');
-
-    await page.getByRole('button', { name: 'Create Package' }).click();
-
-    console.log('Opening Package Tag Dropdown');
-
-    await page.locator('#createPackageDialog--pTag-arrow').click();
-
-    console.log('Entering Package Quantity');
-
-    await page.getByRole('spinbutton', { name: 'Qty' }).fill('111');
-
-    await safeWait(2000);
-
-    console.log('Submitting Create Package');
-
-    const packageResponsePromise = page.waitForResponse(
-      response =>
-        response.url().includes('/packages/frommotherplant') &&
-        response.request().method() === 'POST',
-      { timeout: 60000 }
-    );
-
-    await page.getByRole('button', { name: 'Ok' }).dblclick();
-
-    const packageResponse = await packageResponsePromise;
-    const packageStatus = packageResponse.status();
-
-    let responseBody = '';
-
-    try {
-      responseBody = await packageResponse.text();
-    } catch (e) {
-      responseBody = 'Unable to read response';
-    }
-
-    if (packageStatus >= 200 && packageStatus < 300) {
-      console.log('');
-      console.log('====================================');
-      console.log('✅ PACKAGE CREATED SUCCESSFULLY');
-      console.log(`STATUS: ${packageStatus}`);
-      console.log('====================================');
-      console.log('');
-    } else {
-      console.log('');
-      console.log('====================================');
-      console.log('❌ PACKAGE CREATION FAILED');
-      console.log(`STATUS: ${packageStatus}`);
-      console.log('URL:');
-      console.log(packageResponse.url());
-      console.log('RESPONSE:');
-
-      try {
-        console.log(JSON.stringify(JSON.parse(responseBody), null, 2));
-      } catch {
-        console.log(responseBody);
-      }
-
-      console.log('====================================');
-      console.log('');
-    }
-
-    await page.waitForLoadState('networkidle');
-    await safeWait(3000);
-
-    // ==================================================
-    // ==================================================
-    //  PACKAGES FLOW  (was Test 2)
-    //  Continues in the SAME session — no re-login,
-    //  no play button, no stop.
-    // ==================================================
-    // ==================================================
-
-    // ==================================================
-    // OPEN PACKAGES
-    // ==================================================
-
-    await openPackagesTab();
-
-    // ==================================================
-    // SELECT PACKAGE LOCATION
-    // ==================================================
-
-    logAction('SELECT PACKAGE LOCATION');
-
-    await selectLocation('SNB9.B54 - C12-1000009-LIC');
-
-    // ==================================================
-    // MARK AS IMMATURE
-    // ==================================================
-
-    logAction('MARK AS IMMATURE');
-    await safeWait(2000);
-    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
-    await page.getByText('Sort Descending').click();
-    await safeWait(2000);
-    await selectFirstRow();
-    await safeWait(2000);
-    await clickButton('Mark as Immature');
-    await safeWait(2000);
-    await clickButton('OK', { required: false });
-
-    await safeWait(6000);
-
-    console.log('Marked As Immature');
-
-     console.log('Opening Immature Plants');
-  await page.locator('[id="__xmlview1--navigate-arrow"]').click();
-  await page.getByRole('option', { name: 'Immature Plants' }).click();
+     //console.log('Opening Immature Plants');
+  //await page.locator('[id="__xmlview1--navigate-arrow"]').click();
+  //await page.getByRole('option', { name: 'Immature Plants' }).click();
 
 
       // ==================================================
@@ -551,6 +427,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
     await page.getByRole('button', { name: 'Additional Options' }).click();
     await page.getByRole('button', { name: 'Change Growth Phase' }).click();
+    await safeWait(10000);
     await page.getByRole('combobox', { name: 'Plugs' }).click();
     await safeWait(10000);
     await page.locator('#changeGrowthPhaseDialog--itemSticking-arrow').click();
@@ -564,7 +441,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
     
     // ==================================================
-    // SEARCH Cuttings
+    // SEARCH Stickings
     // ==================================================
     logAction('SEARCH Sticking');
 
@@ -576,13 +453,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     await page.getByRole('textbox', { name: 'Search' }).press('Enter');
     await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
     await page.getByText('Sort Descending').click();
-    await page.locator('[id="__xmlview7--clonePlannerTable-rowsel0"]').click();
+    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
     await page.getByRole('button', { name: 'Additional Options' }).click();
     await page.getByRole('button', { name: 'Change Growth Phase' }).click();
+    await safeWait(10000);
     await page.locator('#changeGrowthPhaseDialog--stickGrowthTag-arrow').click();
     await safeWait(10000);
-    await page.getByRole('option', { name: '1A4FF0200000261000008542' }).click();
-    await page.locator('#changeGrowthPhaseDialog--itemCutting-arrow').click();
+    await page.getByRole('option', { name: '1A4FF0200000261000008544' }).click();
     await safeWait(10000);
     await page.getByRole('combobox', { name: 'Blocks' }).fill('40/40');
     await safeWait(10000);   
@@ -592,6 +469,72 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     await page.getByRole('spinbutton', { name: 'No. of Blocks' }).fill('1');
     await page.getByRole('button', { name: 'Ok' }).click();
     await page.getByText('We’re working on Changing the').click();
+    await safeWait(10000);
+
+     
+    // ==================================================
+    // SEARCH Teen
+    // ==================================================
+    logAction('SEARCH Teen');
+
+    console.log('Searching Teen plants');
+
+    await page.getByRole('button', { name: 'Clear All Filters' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
+    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+    await page.getByRole('button', { name: 'Additional Options' }).click();
+    await page.getByRole('button', { name: 'Change Growth Phase' }).click();
+    await page.locator('#changeGrowthPhaseDialog--beggingTag-arrow').click();
+    await safeWait(3000);
+    await page.getByRole('option', { name: '1A4FF0200000261000008544' }).click();
+    await safeWait(3000);
+    await page.getByRole('button', { name: 'Ok' }).click();
+    await page.locator('[id="__dialog0-TextLabel-text"]').click();
+    await page.locator('[id="__dialog0-TextLabel-text"]').click();
+    await page.getByText('We’re working on Changing the').click();
+    await safeWait(10000);
+
+    // ==================================================
+    // Changing Location
+    // ==================================================
+    logAction('Changing Location');
+
+    console.log('Change Location');
+    await page.getByRole('button', { name: 'Clear All Filters' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
+    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+    await page.getByRole('button', { name: 'Additional Options' }).click();
+    await page.getByRole('button', { name: 'Change Location' }).click();
+    await page.getByRole('gridcell', { name: 'Select Location' }).getByLabel('Select Options').click();
+    await page.getByRole('combobox', { name: 'Select Location' }).fill('SNB9.B55');
+    await page.getByText('SNB9.B55').click();
+    await page.getByRole('button', { name: 'Change Location' }).click();
+    await safeWait(10000);
+
+
+    // ==================================================
+    // Edit Harvest Name
+    // ==================================================
+    logAction('Edit Harvest Name');
+
+    console.log('Edit Harvest Name');
+    await page.getByRole('button', { name: 'Clear All Filters' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).click();
+    await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
+    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+    
+    await safeWait(10000);
 
   } finally {
 
