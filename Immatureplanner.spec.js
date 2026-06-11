@@ -1054,43 +1054,32 @@ await page.getByRole('button', { name: 'Create', exact: true }).click();
     // DESTROY PLANTS
     // ==================================================
 
-    logAction('Destroy Plants');
-    console.log('Destroy Plants');
+    logAction('Distroy Plants');
+
+    console.log('Distroy Plants');
 
     await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await safeWait(1000);
-    await sortDescendingByMetrcUID();
-
-    // Note: original used __xmlview5 — keep that for Destroy Plants section
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
     await page.locator('[id="__xmlview5--clonePlannerTable-rowsel0"]').click();
     await page.getByRole('button', { name: 'Additional Options' }).click();
-    await safeWait(1000);
     await page.getByRole('button', { name: 'Destroy Plants' }).click();
-    await safeWait(2000);
-
-    // Quantity and Waste Weight
+    await page.getByRole('textbox', { name: 'Quantity' }).click();
     await page.getByRole('textbox', { name: 'Quantity' }).fill('1');
+    await page.getByRole('textbox', { name: 'Waste Wgt (lb)' }).click();
     await page.getByRole('textbox', { name: 'Waste Wgt (lb)' }).fill('1');
-    await safeWait(500);
-
-    // Waste Method dropdown
     await page.getByRole('gridcell', { name: 'Waste Method' }).getByLabel('Select Options').click();
-    await safeWait(1000);
-    await fillComboAndSelect('Waste Method', 'Compo', 'Compost', { timeout: 15000 });
-
-    // Material Used
+    await page.getByRole('combobox', { name: 'Waste Method' }).fill('Compo');
+    await safeWait(5000);
+    await page.getByText('Compost').click();
+    await page.getByRole('textbox', { name: 'Material Used' }).click();
     await page.getByRole('textbox', { name: 'Material Used' }).fill('soil');
-    await safeWait(500);
-
-    // Reason dropdown
     await page.getByRole('gridcell', { name: 'Reason' }).getByLabel('Select Options').click();
-    await safeWait(1000);
-    await fillComboAndSelect('Reason', 'Damage', 'Damage', { timeout: 15000 });
-
-    // Notes
+    await page.getByRole('combobox', { name: 'Reason' }).fill('Damage');
+    await safeWait(5000);
+    await page.getByText('Damage').click();
+    await page.getByRole('textbox', { name: 'Notes' }).click();
     await page.getByRole('textbox', { name: 'Notes' }).fill('notes');
-    await safeWait(500);
-
     await page.getByRole('button', { name: 'Destroy Plants' }).click();
     await safeWait(10000);
 
