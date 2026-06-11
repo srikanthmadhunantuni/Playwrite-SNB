@@ -419,6 +419,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     console.log('Opening Mother Plants Module');
 
     await page.getByRole('button', { name: 'Open Search' }).click({ force: true });
+     await safeWait(10000);
     await page.getByRole('searchbox', { name: 'Search' }).fill('mother plants');
     await safeWait(10000);
     await page.getByText('Mother Plants', { exact: true }).click({ force: true });
@@ -631,55 +632,37 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     // SEARCH STICKINGS — Change Growth Phase
     // ==================================================
 
-    logAction('SEARCH Sticking');
-    console.log('Searching Sticking');
+   logAction('SEARCH Sticking');
+console.log('Searching Sticking');
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await safeWait(1000);
+await page.getByRole('button', { name: 'Clear All Filters' }).click();
 
-    await page.getByRole('textbox', { name: 'Search' }).fill('sticking');
-    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await safeWait(2000);
+await page.getByRole('textbox', { name: 'Search' }).click();
+await page.getByRole('textbox', { name: 'Search' }).fill('sticking');
+await page.getByRole('textbox', { name: 'Search' }).press('Enter');
 
-    await sortDescendingByMetrcUID();
+await safeWait(2000);
 
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    await page.getByRole('button', { name: 'Additional Options' }).click();
-    await safeWait(1000);
-    await page.getByRole('button', { name: 'Change Growth Phase' }).click();
-    await safeWait(3000);
+await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+await page.getByText('Sort Descending').click();
 
-    // Growth Tag dropdown
-    const growthTagValue = '1A4FF0200000261000008544';
-    await selectDropdownByArrow(
-      '#changeGrowthPhaseDialog--stickGrowthTag-arrow',
-      growthTagValue,
-      { optionTimeout: 20000 }
-    );
+await safeWait(2000);
 
-    // Blocks combobox
-    await fillComboAndSelect(
-      'Blocks',
-      '40/40',
-      'ROCKWOOL BLOCK GR10 4" x 4" x',
-      { timeout: 20000, itemSelector: '.sapMSLI, .sapMSLITitle, .sapMSLITitleOnly' }
-    );
+await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
 
-    // No. of Blocks
-    const noOfBlocks = page.getByRole('spinbutton', { name: 'No. of Blocks' });
-    await noOfBlocks.waitFor({ state: 'visible', timeout: 15000 });
-    await noOfBlocks.click();
-    await noOfBlocks.fill('1');
-    await safeWait(500);
+await page.getByRole('button', { name: 'Additional Options' }).click();
+await page.getByRole('button', { name: 'Change Growth Phase' }).click();
 
-    await page.getByRole('button', { name: 'Ok' }).click();
+await safeWait(2000);
 
-    // Wait for processing message
-    await page.getByText(`We\u2019re working on Changing the`).waitFor({
-      state: 'visible',
-      timeout: 30000,
-    });
-    await safeWait(10000);
+// Open Stick Growth Tag dropdown
+const growthTagValue = '1A4FF0200000261000008544';
+
+const growthTagArrow = page.locator('#changeGrowthPhaseDialog--stickGrowthTag-arrow');
+await growthTagArrow.waitFor({ state: 'visible', timeout: 30000 });
+await growthTagArrow.click();
+
+await safeWait(1000);
 
     // ==================================================
     // SEARCH TEEN — Change Growth Phase
