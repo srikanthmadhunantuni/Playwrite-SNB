@@ -996,66 +996,35 @@ await page.getByRole('button', { name: 'Create', exact: true }).click();
     await page.getByRole('button', { name: 'Update', exact: true }).click();
     await safeWait(3000);
 
-    // Dismiss any overlay/dialog
-    try {
-      await page.locator('[id="__dialog0-TextLabel-text"]').click();
-    } catch (e) {}
-    try {
-      await page.locator('#sap-ui-blocklayer-popup').click();
-    } catch (e) {}
-    await safeWait(3000);
-
+  
     // ==================================================
     // ADJUST
     // ==================================================
 
-    logAction('Adjust');
+     logAction('Adjust');
+
     console.log('Adjust');
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await safeWait(1000);
-    await sortDescendingByMetrcUID();
-
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    await page.getByRole('button', { name: 'Additional Options' }).click();
-    await safeWait(1000);
-    await page.getByRole('button', { name: 'Adjust' }).click();
-    await safeWait(2000);
-
-    await page.getByRole('spinbutton', { name: 'Adj. Qty' }).click();
-    await page.getByRole('spinbutton', { name: 'Adj. Qty' }).fill('11');
-    await safeWait(500);
-
-    // Reason dropdown — click the cell first, then the Select Options label
-    await page.locator('[id="__item22-__table0-0-cell4"]').click();
-    await safeWait(500);
-    await page.getByRole('gridcell', { name: 'Reason' }).getByLabel('Select Options').click();
-    await safeWait(1000);
-
-    // Fill combobox and pick Incorrect Quantity
-    await fillComboAndSelect('Reason', 'Inc', 'Incorrect Quantity', { timeout: 15000 });
-
-    await page.getByRole('textbox', { name: 'Notes' }).fill('notes');
-    await safeWait(500);
-
-    await page.getByRole('button', { name: 'Adjust' }).click();
-    await safeWait(3000);
-
-    // Wait for processing — dismiss progressbar/dialog if needed
-    try {
-      await page.getByRole('progressbar', { name: 'Please wait' }).waitFor({ state: 'visible', timeout: 10000 });
-      await page.waitForFunction(
-        () => !document.querySelector('[aria-label="Please wait"]'),
-        { timeout: 30000 }
-      );
-    } catch (e) {}
-
-    await page.getByText(`We\u2019re working on Adjust.`).waitFor({
-      state: 'visible',
-      timeout: 30000,
-    });
-    await safeWait(10000);
-
+  await page.getByRole('button', { name: 'Clear All Filters' }).click();
+  await page.getByText('METRC UID').click();
+  await page.getByText('Sort Descending').click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+  await page.getByRole('button', { name: 'Additional Options' }).click();
+  await page.getByRole('button', { name: 'Adjust' }).click();
+  await page.getByRole('spinbutton', { name: 'Adj. Qty' }).click();
+  await page.getByRole('spinbutton', { name: 'Adj. Qty' }).fill('11');
+  await page.locator('[id="__item22-__table0-0-cell4"]').click();
+  await page.getByRole('gridcell', { name: 'Reason' }).getByLabel('Select Options').click();
+  await page.getByRole('combobox', { name: 'Reason' }).fill('Inc');
+  await page.getByText('Incorrect Quantity').click();
+  await page.getByRole('textbox', { name: 'Notes' }).click();
+  await page.getByRole('textbox', { name: 'Notes' }).fill('notes');
+  await page.getByRole('button', { name: 'Adjust' }).click();
+  await page.getByRole('progressbar', { name: 'Please wait' }).click();
+  await page.getByRole('progressbar', { name: 'Please wait' }).click();
+  await page.getByRole('button', { name: 'Adjust' }).click();
+  await page.getByText('We’re working on Adjust.').click();
+  await safeWait(10000);
     // ==================================================
     // MARK AS MOTHER
     // ==================================================
