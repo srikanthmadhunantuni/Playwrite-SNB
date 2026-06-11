@@ -875,22 +875,81 @@ await safeWait(10000);
     // ==================================================
 
      logAction('Split Batch');
+console.log('Split Batch');
 
-    console.log('Split Batch');
+await page.getByRole('button', { name: 'Clear All Filters' }).click();
 
+await page.getByText('METRC UID').click();
+await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
 
-  await page.getByRole('button', { name: 'Clear All Filters' }).click();
-  await page.getByText('METRC UID').click();
-  await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
-  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-  await page.getByRole('button', { name: 'Additional Options' }).click();
-  await page.getByRole('button', { name: 'Split Batch' }).click();
-  await page.locator('#splitPackageClone--location-arrow').click();
-  await page.getByRole('searchbox', { name: 'Search' }).fill('snb9.b54');
-  await page.locator('[id="__select0-arrow"]').click();
-  await page.getByRole('option', { name: '1A4FF0300000261000006326' }).click();
-  await page.getByRole('textbox', { name: 'Quantity', exact: true }).fill('3');
-  await page.getByRole('button', { name: 'Create', exact: true }).click();
+await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+
+await page.getByRole('button', { name: 'Additional Options' }).click();
+await page.getByRole('button', { name: 'Split Batch' }).click();
+
+await page.waitForTimeout(2000);
+
+// Location dropdown
+await page.locator('#splitPackageClone--location-arrow').waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await page.locator('#splitPackageClone--location-arrow').click();
+
+await page.getByRole('searchbox', { name: 'Search' }).waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await page.getByRole('searchbox', { name: 'Search' }).fill('snb9.b54');
+
+await page.waitForTimeout(1000);
+await page.keyboard.press('Enter');
+
+await page.waitForTimeout(2000);
+
+// Package Tag dropdown
+const packageTagValue = '1A4FF0300000261000006326';
+
+const packageTagArrow = page.locator('[id="__select0-arrow"]');
+
+await packageTagArrow.waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await packageTagArrow.click();
+
+await page.waitForTimeout(1000);
+
+try {
+  const packageOption = page.getByRole('option', { name: packageTagValue }).first();
+
+  await packageOption.waitFor({
+    state: 'visible',
+    timeout: 15000
+  });
+
+  await packageOption.click();
+
+} catch (error) {
+  console.log('Package Tag option not visible, using keyboard fallback');
+
+  await page.keyboard.type(packageTagValue);
+  await page.waitForTimeout(1000);
+  await page.keyboard.press('Enter');
+}
+
+await page.waitForTimeout(1000);
+
+// Quantity
+await page.getByRole('textbox', { name: 'Quantity', exact: true }).fill('3');
+
+await page.waitForTimeout(1000);
+
+// Create
+await page.getByRole('button', { name: 'Create', exact: true }).click();
 
     // ==================================================
     // CHANGE STRAIN
