@@ -576,7 +576,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     const immatureOption = page.getByRole('option', { name: 'Immature Plants' });
     await immatureOption.waitFor({ state: 'visible', timeout: 15000 });
     await immatureOption.click({ force: true });
-    await safeWait(5000);
+    await safeWait(3000);
 
     // ==================================================
     // RESTART API CAPTURE AFTER NAVIGATION
@@ -593,8 +593,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     // SELECT LOCATION (Immature Plants)
     // ==================================================
 
-    logAction('SELECT LOCATION');
+     logAction('SELECT LOCATION');
+
     await selectLocation('SNB9.B54 - C12-1000009-LIC');
+
     console.log('Location Selected Successfully');
 
     // ==================================================
