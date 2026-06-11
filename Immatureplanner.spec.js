@@ -1013,7 +1013,7 @@ await page.getByRole('button', { name: 'Create', exact: true }).click();
   await page.getByRole('button', { name: 'Adjust' }).click();
   await page.getByRole('spinbutton', { name: 'Adj. Qty' }).click();
   await page.getByRole('spinbutton', { name: 'Adj. Qty' }).fill('11');
-  await page.locator('[id="__item22-__table0-0-cell4"]').click();
+ // await page.locator('[id="__item22-__table0-0-cell4"]').click();
   await page.getByRole('gridcell', { name: 'Reason' }).getByLabel('Select Options').click();
   await page.getByRole('combobox', { name: 'Reason' }).fill('Inc');
   await page.getByText('Incorrect Quantity').click();
