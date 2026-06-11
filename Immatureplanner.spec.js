@@ -1020,9 +1020,6 @@ await page.getByRole('button', { name: 'Create', exact: true }).click();
   await page.getByRole('textbox', { name: 'Notes' }).click();
   await page.getByRole('textbox', { name: 'Notes' }).fill('notes');
   await page.getByRole('button', { name: 'Adjust' }).click();
-  await page.getByRole('progressbar', { name: 'Please wait' }).click();
-  await page.getByRole('progressbar', { name: 'Please wait' }).click();
-  await page.getByRole('button', { name: 'Adjust' }).click();
   await page.getByText('We’re working on Adjust.').click();
   await safeWait(10000);
     // ==================================================
