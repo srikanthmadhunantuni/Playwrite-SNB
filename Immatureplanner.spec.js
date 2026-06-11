@@ -632,7 +632,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     // SEARCH STICKINGS — Change Growth Phase
     // ==================================================
 
-   logAction('SEARCH Sticking');
+    // SEARCH Stickings
+    // ==================================================
+logAction('SEARCH Sticking');
 console.log('Searching Sticking');
 
 await page.getByRole('button', { name: 'Clear All Filters' }).click();
@@ -664,57 +666,125 @@ await growthTagArrow.click();
 
 await safeWait(1000);
 
+// Select Growth Tag safely
+try {
+  const option = page.getByRole('option', { name: growthTagValue }).first();
+  await option.waitFor({ state: 'visible', timeout: 15000 });
+  await option.click();
+} catch (error) {
+  console.log('Dropdown option not visible, using keyboard fallback');
+
+  await page.keyboard.type(growthTagValue);
+  await safeWait(1000);
+  await page.keyboard.press('Enter');
+}
+
+await safeWait(1000);
+
+// Blocks
+const blocksCombo = page.getByRole('combobox', { name: 'Blocks' });
+await blocksCombo.waitFor({ state: 'visible', timeout: 30000 });
+await blocksCombo.click();
+await blocksCombo.fill('40/40');
+
+await safeWait(1000);
+
+// Select ROCKWOOL BLOCK option
+await page.getByText('ROCKWOOL BLOCK GR10 4" x 4" x').click();
+
+await safeWait(1000);
+
+// No. of Blocks
+const noOfBlocks = page.getByRole('spinbutton', { name: 'No. of Blocks' });
+await noOfBlocks.waitFor({ state: 'visible', timeout: 30000 });
+await noOfBlocks.click();
+await noOfBlocks.fill('1');
+
+await safeWait(1000);
+
+// Click OK
+await page.getByRole('button', { name: 'Ok' }).click();
+
+// Wait for processing message
+await page.getByText('We’re working on Changing the').waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await safeWait(10000);
     // ==================================================
     // SEARCH TEEN — Change Growth Phase
     // ==================================================
 
     logAction('SEARCH Teen');
-    console.log('Searching Teen plants');
+console.log('Searching Teen plants');
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await safeWait(1000);
+await page.getByRole('button', { name: 'Clear All Filters' }).click();
 
-    await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
-    await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await safeWait(2000);
+await page.getByRole('textbox', { name: 'Search' }).click();
+await page.getByRole('textbox', { name: 'Search' }).fill('Teen');
+await page.getByRole('textbox', { name: 'Search' }).press('Enter');
 
-    await sortDescendingByMetrcUID();
+await safeWait(2000);
 
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    await page.getByRole('button', { name: 'Additional Options' }).click();
-    await safeWait(1000);
-    await page.getByRole('button', { name: 'Change Growth Phase' }).click();
-    await safeWait(3000);
+await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
 
-    // Begging Tag dropdown
-    const teenGrowthTagValue = '1A4FF0200000261000008544';
-    await selectDropdownByArrow(
-      '#changeGrowthPhaseDialog--beggingTag-arrow',
-      teenGrowthTagValue,
-      { optionTimeout: 20000 }
-    );
+await safeWait(2000);
 
-    await page.getByRole('button', { name: 'Ok' }).click();
-    await safeWait(2000);
+await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
 
-    // Dismiss any dialog that appears
-    const dialogLabel = page.locator('[id="__dialog0-TextLabel-text"]');
-    try {
-      await dialogLabel.waitFor({ state: 'visible', timeout: 10000 });
-      await dialogLabel.click();
-      await safeWait(500);
-      await dialogLabel.click();
-    } catch (error) {
-      console.log('Dialog label not visible, continuing...');
-    }
+await page.getByRole('button', { name: 'Additional Options' }).click();
+await page.getByRole('button', { name: 'Change Growth Phase' }).click();
 
-    // Wait for processing message
-    await page.getByText(`We\u2019re working on Changing the`).waitFor({
-      state: 'visible',
-      timeout: 30000,
-    });
-    await safeWait(10000);
+await safeWait(2000);
 
+// Open Begging Tag dropdown
+const teenGrowthTagValue = '1A4FF0200000261000008544';
+
+const beggingTagArrow = page.locator('#changeGrowthPhaseDialog--beggingTag-arrow');
+await beggingTagArrow.waitFor({ state: 'visible', timeout: 30000 });
+await beggingTagArrow.click();
+
+await safeWait(1000);
+
+// Select Growth Tag safely
+try {
+  const option = page.getByRole('option', { name: teenGrowthTagValue }).first();
+  await option.waitFor({ state: 'visible', timeout: 15000 });
+  await option.click();
+} catch (error) {
+  console.log('Teen dropdown option not visible, using keyboard fallback');
+
+  await page.keyboard.type(teenGrowthTagValue);
+  await safeWait(1000);
+  await page.keyboard.press('Enter');
+}
+
+await safeWait(1000);
+
+// Click OK
+await page.getByRole('button', { name: 'Ok' }).click();
+
+// Optional dialog label handling
+const dialogLabel = page.locator('[id="__dialog0-TextLabel-text"]');
+
+try {
+  await dialogLabel.waitFor({ state: 'visible', timeout: 10000 });
+  await dialogLabel.click();
+  await safeWait(500);
+  await dialogLabel.click();
+} catch (error) {
+  console.log('Dialog label not visible, continuing...');
+}
+
+// Wait for processing message
+await page.getByText('We’re working on Changing the').waitFor({
+  state: 'visible',
+  timeout: 30000
+});
+
+await safeWait(10000);
     // ==================================================
     // CHANGING LOCATION
     // ==================================================
