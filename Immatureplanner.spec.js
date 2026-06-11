@@ -1058,10 +1058,17 @@ await page.getByRole('button', { name: 'Create', exact: true }).click();
 
     console.log('Distroy Plants');
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
-    await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
-    await page.locator('[id="__xmlview5--clonePlannerTable-rowsel0"]').click();
+        await page.getByRole('button', { name: 'Clear All Filters' }).click();
+    await safeWait(1000);
+
+    await page.getByText('METRC UID').click();
+    await safeWait(2000);
+
+  await page.getByText('Sort Descending').click();
+    
+    await safeWait(2000);
+    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+    await safeWait(2000);
     await page.getByRole('button', { name: 'Additional Options' }).click();
     await page.getByRole('button', { name: 'Destroy Plants' }).click();
     await page.getByRole('textbox', { name: 'Quantity' }).click();
