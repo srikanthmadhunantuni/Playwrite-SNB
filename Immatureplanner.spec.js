@@ -874,36 +874,23 @@ await safeWait(10000);
     // SPLIT BATCH
     // ==================================================
 
-    logAction('Split Batch');
+     logAction('Split Batch');
+
     console.log('Split Batch');
 
-    await page.getByRole('button', { name: 'Clear All Filters' }).click();
-    await safeWait(1000);
-    await sortDescendingByMetrcUID();
 
-    await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
-    await page.getByRole('button', { name: 'Additional Options' }).click();
-    await safeWait(1000);
-    await page.getByRole('button', { name: 'Split Batch' }).click();
-    await safeWait(2000);
-
-    // Location arrow in Split Batch dialog
-    await selectDropdownByArrow('#splitPackageClone--location-arrow', 'SNB9.B54', {
-      exact: false,
-      optionTimeout: 20000,
-    });
-
-    // Package Tag select (second dropdown)
-    await selectDropdownByArrow('[id="__select0-arrow"]', '1A4FF0300000261000006326', {
-      optionTimeout: 20000,
-    });
-
-    // Quantity
-    await page.getByRole('textbox', { name: 'Quantity', exact: true }).fill('3');
-    await safeWait(500);
-
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
-    await safeWait(5000);
+  await page.getByRole('button', { name: 'Clear All Filters' }).click();
+  await page.getByText('METRC UID').click();
+  await page.getByRole('menuitem', { name: 'Sort Descending' }).click();
+  await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
+  await page.getByRole('button', { name: 'Additional Options' }).click();
+  await page.getByRole('button', { name: 'Split Batch' }).click();
+  await page.locator('#splitPackageClone--location-arrow').click();
+  await page.getByRole('searchbox', { name: 'Search' }).fill('snb9.b54');
+  await page.locator('[id="__select0-arrow"]').click();
+  await page.getByRole('option', { name: '1A4FF0300000261000006326' }).click();
+  await page.getByRole('textbox', { name: 'Quantity', exact: true }).fill('3');
+  await page.getByRole('button', { name: 'Create', exact: true }).click();
 
     // ==================================================
     // CHANGE STRAIN
