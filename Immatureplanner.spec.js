@@ -953,7 +953,7 @@ await page.waitForTimeout(1000);
 // Create
 await page.getByRole('button', { name: 'Create', exact: true }).click();
 
-    // ==================================================
+    /*// ==================================================
     // CHANGE STRAIN
     // ==================================================
 
@@ -996,7 +996,7 @@ await page.getByRole('button', { name: 'Create', exact: true }).click();
     await page.getByRole('button', { name: 'Update', exact: true }).click();
     await safeWait(3000);
 
-  
+  */
     // ==================================================
     // ADJUST
     // ==================================================
