@@ -420,6 +420,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
     await page.getByRole('button', { name: 'Open Search' }).click({ force: true });
     await page.getByRole('searchbox', { name: 'Search' }).fill('mother plants');
+    await safeWait(10000);
     await page.getByText('Mother Plants', { exact: true }).click({ force: true });
 
     await safeWait(10000);
@@ -600,47 +601,31 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     // ==================================================
 
     logAction('SEARCH Cuttings');
-    console.log('Searching Clone Cuttings');
+
+    console.log('Searching Clone cuttings');
 
     await page.getByRole('textbox', { name: 'Search' }).fill('Cuttings');
     await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await safeWait(2000);
-
+    await page.getByRole('textbox', { name: 'Search' }).click();
     await page.getByRole('textbox', { name: 'Search' }).fill('Clone Cuttings');
     await page.getByRole('textbox', { name: 'Search' }).press('Enter');
-    await safeWait(2000);
-
-    await sortDescendingByMetrcUID();
-
+    await page.locator('div').filter({ hasText: /^METRC UID$/ }).nth(1).click();
+    await page.getByText('Sort Descending').click();
     await page.locator('[id="__xmlview1--clonePlannerTable-rowsel0"]').click();
     await page.getByRole('button', { name: 'Additional Options' }).click();
-    await safeWait(1000);
     await page.getByRole('button', { name: 'Change Growth Phase' }).click();
-    await safeWait(3000);
-
-    // Item Sticking dropdown  (label shown is 'Plugs' in original code)
-    await fillComboAndSelect(
-      page.locator('#changeGrowthPhaseDialog--itemSticking-arrow').locator('..').locator('input').first(),
-      'Moms',
-      'Moms',
-      { timeout: 15000 }
-    );
-    // ↑ For SAPUI5 Select with an -arrow, it's cleaner to click the arrow then pick by option:
-    // Re-implement with selectDropdownByArrow if the above doesn't resolve correctly:
+    await safeWait(10000);
+    await page.getByRole('combobox', { name: 'Plugs' }).click();
+    await safeWait(10000);
     await page.locator('#changeGrowthPhaseDialog--itemSticking-arrow').click();
-    await safeWait(800);
-    const momsOption = page.getByRole('option', { name: 'Moms' }).first();
-    await momsOption.waitFor({ state: 'visible', timeout: 15000 });
-    await momsOption.click({ force: true });
-    await safeWait(1000);
-
+    await page.getByRole('combobox', { name: 'Plugs' }).fill('Moms');
+    await page.locator('.sapMSLITitleOnly').click();
     await page.getByRole('spinbutton', { name: 'No. of Plugs' }).click();
     await page.getByRole('spinbutton', { name: 'No. of Plugs' }).fill('1');
-    await safeWait(500);
-
     await page.getByRole('button', { name: 'Ok' }).click();
-    await safeWait(3000);
-    console.log('Cuttings / Change Growth Phase Completed');
+    //await page.getByRole('dialog', { name: 'Messages' }).click();
+    console.log('Cutting Search Completed');
+
 
     // ==================================================
     // SEARCH STICKINGS — Change Growth Phase
